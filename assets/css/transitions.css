@@ -1,0 +1,52 @@
+/* Transitions */
+.animation-appear {
+  animation: .8s appear;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animation-zoom {
+	@apply inline-block overflow-hidden;
+	& img {
+		@apply transition-transform duration-200 ease-in-out;
+	}
+	&:hover img {
+		@apply transform scale-110;
+	}
+}
+
+.animation-gradient {
+	background-size: 200% 200%;
+	animation: AnimateGradient 14s ease infinite;
+}
+
+@keyframes AnimateGradient {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+
+.skew {
+	clip-path: polygon(0% 0%, 100% 3%, 99.5% 100%, .3% 98%);
+}
+
+.skew-text {
+	clip-path: polygon(0% 0%, 100% 6%, 99.5% 100%, .3% 93%);
+	transform: scale(1.05);
+}
+
+/* CTA */
+a:hover .cta-arrow {
+  @apply -translate-x-1;
+}
+
+.opacity-0.in-viewport {
+	@apply opacity-100;
+}

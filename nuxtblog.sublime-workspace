@@ -1,0 +1,1278 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"delay",
+				"delay-200 \tTailwind Class"
+			],
+			[
+				"trakin",
+				"tracking-wide \tTailwind Class"
+			],
+			[
+				"scal",
+				"scale-105 \tTailwind Class"
+			],
+			[
+				"rotat",
+				"rotate-45 \tTailwind Class"
+			],
+			[
+				"transition",
+				"transition-transform \tTailwind Class"
+			],
+			[
+				"opaci",
+				"opacity-50 \tTailwind Class"
+			],
+			[
+				"opacity",
+				"opacity-75 \tTailwind Class"
+			],
+			[
+				"durat",
+				"duration-300 \tTailwind Class"
+			],
+			[
+				"transiti",
+				"transition-transform \tTailwind Class"
+			],
+			[
+				"grid",
+				"grid-cols-2 \tTailwind Class"
+			],
+			[
+				"rota",
+				"rotate-45 \tTailwind Class"
+			],
+			[
+				"border-",
+				"border-double \tTailwind Class"
+			],
+			[
+				"skew",
+				"skew-x-3 \tTailwind Class"
+			],
+			[
+				"gri",
+				"grid-cols-3 \tTailwind Class"
+			],
+			[
+				"text-gra",
+				"text-gray-600 \tTailwind Class"
+			],
+			[
+				"spac",
+				"space-x-10 \tTailwind Class"
+			],
+			[
+				"text-red",
+				"text-red-600 \tTailwind Class"
+			],
+			[
+				"box-",
+				"box-shadow\tproperty"
+			],
+			[
+				"items",
+				"items-end \tTailwind Class"
+			],
+			[
+				"just",
+				"justify-between \tTailwind Class"
+			],
+			[
+				"max-w",
+				"max-w-3xl \tTailwind Class"
+			],
+			[
+				"reso",
+				"resourcePath"
+			],
+			[
+				"align",
+				"align-middle \tTailwind Class"
+			],
+			[
+				"review",
+				"review_author"
+			],
+			[
+				"review_",
+				"review_author"
+			],
+			[
+				"rounded-t",
+				"rounded-tr \tTailwind Class"
+			],
+			[
+				"leading",
+				"leading-snug \tTailwind Class"
+			],
+			[
+				"opac",
+				"opacity-0 \tTailwind Class"
+			],
+			[
+				"border-gr",
+				"border-gray-300 \tTailwind Class"
+			],
+			[
+				"shadow",
+				"shadow-md \tTailwind Class"
+			],
+			[
+				"purge",
+				"purgecss-with-wordpress"
+			],
+			[
+				"purgeC",
+				"purgecssWordpress"
+			],
+			[
+				"purgecss",
+				"purgecss-with-wordpress"
+			],
+			[
+				"text-gray",
+				"text-gray-800 \tTailwind Class"
+			],
+			[
+				"min-h",
+				"min-h-screen \tTailwind Class"
+			],
+			[
+				"text-",
+				"text-6xl \tTailwind Class"
+			],
+			[
+				"inlin",
+				"inline-block \tTailwind Class"
+			],
+			[
+				"grid-cols",
+				"grid-cols-2 \tTailwind Class"
+			],
+			[
+				"leading-",
+				"leading-normal \tTailwind Class"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"shadow-",
+				"shadow-md \tTailwind Class"
+			],
+			[
+				"overflow",
+				"overflow-hidden \tTailwind Class"
+			],
+			[
+				"border-gra",
+				"border-gray-300 \tTailwind Class"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"bg-gray",
+				"bg-gray-200 \tTailwind Class"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"text-blue",
+				"text-blue-600 \tTailwind Class"
+			],
+			[
+				"list-st",
+				"list-style-type\tproperty"
+			],
+			[
+				"bg-gra",
+				"bg-gray-900 \tTailwind Class"
+			],
+			[
+				"postal",
+				"postcal-code"
+			],
+			[
+				"h-",
+				"h-px \tTailwind Class"
+			],
+			[
+				"check",
+				"checkboxvalue"
+			],
+			[
+				"button",
+				"button_desc"
+			],
+			[
+				"border",
+				"border-solid \tTailwind Class"
+			],
+			[
+				"text-ble",
+				"text-blue-500 \tTailwind Class"
+			],
+			[
+				"rounded",
+				"rounded-lg \tTailwind Class"
+			],
+			[
+				"image",
+				"image_desc"
+			],
+			[
+				"text-gr",
+				"text-green-100 \tTailwind Class"
+			],
+			[
+				"feature",
+				"featuretable"
+			],
+			[
+				"bg-gree",
+				"bg-green-200 \tTailwind Class"
+			],
+			[
+				"max-w-",
+				"max-w-3xl \tTailwind Class"
+			],
+			[
+				"alig-",
+				"align-top \tTailwind Class"
+			],
+			[
+				"shad",
+				"shadow-lg \tTailwind Class"
+			],
+			[
+				"text-gree",
+				"text-green-800 \tTailwind Class"
+			],
+			[
+				"text-green",
+				"text-green-900 \tTailwind Class"
+			],
+			[
+				"bg-green",
+				"bg-green-600 \tTailwind Class"
+			],
+			[
+				"itemst",
+				"items-center \tTailwind Class"
+			],
+			[
+				"font-",
+				"font-medium \tTailwind Class"
+			],
+			[
+				"curs",
+				"cursor-pointer \tTailwind Class"
+			],
+			[
+				"border-gree",
+				"border-green-500 \tTailwind Class"
+			],
+			[
+				"justy",
+				"justify-between \tTailwind Class"
+			],
+			[
+				"rou",
+				"rounded \tTailwind Class"
+			],
+			[
+				"text-orang",
+				"text-orange-300 \tTailwind Class"
+			],
+			[
+				"left-",
+				"left-auto \tTailwind Class"
+			],
+			[
+				"shri",
+				"flex-shrink-0 \tTailwind Class"
+			],
+			[
+				"text-gra-",
+				"text-gray-700 \tTailwind Class"
+			],
+			[
+				"flex",
+				"flex-1 \tTailwind Class"
+			],
+			[
+				"ite",
+				"items-center \tTailwind Class"
+			],
+			[
+				"bg-gra-",
+				"bg-gray-900 \tTailwind Class"
+			],
+			[
+				"bg-orange",
+				"bg-orange-600 \tTailwind Class"
+			],
+			[
+				"text-ora",
+				"text-orange-500 \tTailwind Class"
+			],
+			[
+				"contain",
+				"object-contain \tTailwind Class"
+			],
+			[
+				"sha",
+				"shadow-md \tTailwind Class"
+			],
+			[
+				"ital",
+				"italic \tTailwind Class"
+			],
+			[
+				"mt-10",
+				"mt-10 \tTailwind Class"
+			],
+			[
+				"flex-sh",
+				"flex-shrink-0 \tTailwind Class"
+			],
+			[
+				"op",
+				"opacity-100 \tTailwind Class"
+			],
+			[
+				"flex-row",
+				"flex-row-reverse \tTailwind Class"
+			],
+			[
+				"h-full",
+				"max-h-full \tTailwind Class"
+			],
+			[
+				"poin",
+				"cursor-pointer \tTailwind Class"
+			],
+			[
+				"center",
+				"text-center \tTailwind Class"
+			],
+			[
+				"bg-ora",
+				"bg-orange-600 \tTailwind Class"
+			],
+			[
+				"flex-e",
+				"flex-row-reverse \tTailwind Class"
+			],
+			[
+				"m-w",
+				"max-w-sm \tTailwind Class"
+			],
+			[
+				"border-l-",
+				"border-l-2 \tTailwind Class"
+			],
+			[
+				"text-or",
+				"text-orange-600 \tTailwind Class"
+			],
+			[
+				"in",
+				"inline-flex \tTailwind Class"
+			],
+			[
+				"text-bas",
+				"text-base \tTailwind Class"
+			],
+			[
+				"base",
+				"align-baseline \tTailwind Class"
+			],
+			[
+				"text-orange",
+				"text-orange-600 \tTailwind Class"
+			],
+			[
+				"bg-orang",
+				"bg-orange-500 \tTailwind Class"
+			],
+			[
+				"text-gre",
+				"text-green-600 \tTailwind Class"
+			],
+			[
+				"self",
+				"self-center \tTailwind Class"
+			],
+			[
+				"text",
+				"text-3xl \tTailwind Class"
+			],
+			[
+				"shado",
+				"shadow-md \tTailwind Class"
+			],
+			[
+				"object-",
+				"object-cover \tTailwind Class"
+			],
+			[
+				"text-oran",
+				"text-orange-200 \tTailwind Class"
+			],
+			[
+				"lead",
+				"leading-relaxed \tTailwind Class"
+			],
+			[
+				"bg-or",
+				"bg-orange-500 \tTailwind Class"
+			],
+			[
+				"bg-gre",
+				"bg-green-500 \tTailwind Class"
+			],
+			[
+				"mx-au",
+				"mx-auto \tTailwind Class"
+			],
+			[
+				"bg-gr",
+				"bg-gray-700 \tTailwind Class"
+			],
+			[
+				"bg-c",
+				"bg-cover \tTailwind Class"
+			],
+			[
+				"float",
+				"float-right \tTailwind Class"
+			],
+			[
+				"sel",
+				"self-end \tTailwind Class"
+			],
+			[
+				"bg-",
+				"bg-gray-100 \tTailwind Class"
+			],
+			[
+				"jus",
+				"justify-center \tTailwind Class"
+			],
+			[
+				"shad-",
+				"shadow-md \tTailwind Class"
+			],
+			[
+				"italic",
+				"not-italic \tTailwind Class"
+			],
+			[
+				"font",
+				"font-serif \tTailwind Class"
+			],
+			[
+				"font-sty",
+				"font-style\tproperty"
+			],
+			[
+				"wp_",
+				"wp_enqueue_style"
+			],
+			[
+				"align-",
+				"align-text-top \tTailwind Class"
+			],
+			[
+				"text-ga",
+				"text-gray-600 \tTailwind Class"
+			],
+			[
+				"border-b",
+				"border-b \tTailwind Class"
+			],
+			[
+				"justif",
+				"justify-center \tTailwind Class"
+			],
+			[
+				"track",
+				"tracking-normal \tTailwind Class"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/css/styles.css",
+			"settings":
+			{
+				"buffer_size": 1128,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/transitions.css",
+			"settings":
+			{
+				"buffer_size": 725,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/blog/_slug.vue",
+			"settings":
+			{
+				"buffer_size": 2119,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/Header.vue",
+			"settings":
+			{
+				"buffer_size": 779,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/ecuador.md",
+			"settings":
+			{
+				"buffer_size": 7464,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/surfen-in-peru.md",
+			"settings":
+			{
+				"buffer_size": 8452,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/slapen-is-voor-apen.md",
+			"settings":
+			{
+				"buffer_size": 9126,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/werken-voor-en-aan-mezelf.md",
+			"settings":
+			{
+				"buffer_size": 3716,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/caribische-kust.md",
+			"settings":
+			{
+				"buffer_size": 7312,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install\t",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 196.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/sander/Projects/nuxtblog",
+		"/Users/sander/Projects/nuxtblog/blog",
+		"/Users/sander/Projects/nuxtblog/blog/assets",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css",
+		"/Users/sander/Projects/nuxtblog/blog/assets/images",
+		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog",
+		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog/7-sloten-tegelijk",
+		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog/caribische-kust",
+		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog/hello-world",
+		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog/werken-voor-en-aan-mezelf",
+		"/Users/sander/Projects/nuxtblog/blog/components",
+		"/Users/sander/Projects/nuxtblog/blog/content",
+		"/Users/sander/Projects/nuxtblog/blog/layouts",
+		"/Users/sander/Projects/nuxtblog/blog/pages",
+		"/Users/sander/Projects/nuxtblog/blog/pages/blog",
+		"/Users/sander/Projects/nuxtblog-oud",
+		"/Users/sander/Projects/nuxtblog-oud/blog",
+		"/Users/sander/Projects/nuxtblog-oud/blog/components",
+		"/Users/sander/Projects/nuxtblog-oud/blog/contents",
+		"/Users/sander/Projects/nuxtblog-oud/blog/pages",
+		"/Users/sander/Projects/nuxtblog-oud/blog/pages/blog",
+		"/Users/sander/Projects/nuxtblog-oud/img",
+		"/Users/sander/Projects/nuxtblog-oud/posts"
+	],
+	"file_history":
+	[
+		"/Users/sander/Projects/nuxtblog/blog/content/hello-world.md",
+		"/Users/sander/Projects/nuxtblog/blog/pages/blog/index.vue",
+		"/Users/sander/Projects/nuxtblog/blog/components/Footer.vue",
+		"/Users/sander/Projects/nuxtblog/blog/content/werken-voor-en-aan-mezelf.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/leren-mediteren.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/7-sloten-tegelijk.md",
+		"/Users/sander/Projects/nuxtblog/blog/pages/index.vue",
+		"/Users/sander/Projects/nuxtblog/blog/content/guatape.md",
+		"/Users/sander/Projects/nuxtblog/blog/tailwind.config.js",
+		"/Users/sander/Projects/nuxtblog/blog/components/Skew.vue",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/gradients.css",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/transitions.css",
+		"/Users/sander/Projects/nuxtblog/blog/components/Header.vue",
+		"/Users/sander/Projects/nuxtblog/blog/layouts/default.vue",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/styles.css",
+		"/Users/sander/Projects/nuxtblog/blog/content/hij-ging-niet.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/geleerd-medellin.md",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/markdown.css",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/tailwind.css",
+		"/Users/sander/Projects/nuxtblog/blog/pages/blog/_slug.vue",
+		"/Users/sander/Projects/nuxtblog/blog/content/caribische-kust.md",
+		"/Users/sander/Projects/nuxtblog/blog/package.json",
+		"/Users/sander/Projects/nuxtblog/blog/content/blog-twee.md",
+		"/Users/sander/Projects/nuxtblog/blog/nuxt.config.js",
+		"/Users/sander/Projects/nuxtblog/blog/assets/images/sander.svg",
+		"/Users/sander/Projects/nuxtblog/blog/components/Logo.vue",
+		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/_generator/tailwind.config.js",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/template-parts/inc/header-usps.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/template-parts/blocks/review/review.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/template-parts/blocks/usps/usps.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/_generator/css/transitions.css",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/template-parts/blocks/imglink/imglink.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/img/zp-list.svg",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/_generator/css/gutenberg-tailwind-reset.css",
+		"/private/var/folders/8f/720yy3h11m34f5c71nd7vd3h0000gn/T/e6801319-2108-47a0-b935-990d77d57efb/domains/lessonsinlive.com/public_html/wp-content/themes/argenta-child/header.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/template-parts/header-usps.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/_generator/css/styles.css",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/_generator/css/color-pallette.css",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/_generator/postcss.config.js",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/_generator/css/tailwind.css",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/_generator/css/header-usps.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/header.php",
+		"/Users/sander/Local Sites/isolatiechipsbe/app/public/wp-content/themes/generatepress_child/template-parts/blocks/cta-hero/cta-hero.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/footer.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/js/smoothtransitions.js",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/js/jquery.smoothState.min.js",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/functions.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/generatepress/footer.php",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/generatepress/header.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/css/tailwind.css",
+		"/private/var/folders/8f/720yy3h11m34f5c71nd7vd3h0000gn/T/cc379712-871e-4d8c-93dd-6fdedd2df618/catalog/view/theme/Ligwijzer NL/template/common/header.tpl",
+		"/private/var/folders/8f/720yy3h11m34f5c71nd7vd3h0000gn/T/cc379712-871e-4d8c-93dd-6fdedd2df618/.htaccess",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/template-parts/blocks/video/video.php",
+		"/Users/sander/Projects/zweedsepellets/redesign/svg/time-o.svg",
+		"/Users/sander/Projects/zweedsepellets/redesign/svg/tool-o.svg",
+		"/Users/sander/Projects/zweedsepellets/redesign/svg/truck-o.svg",
+		"/Users/sander/Projects/zweedsepellets/redesign/svg/leaf-o.svg",
+		"/Users/sander/Projects/zweedsepellets/redesign/svg/arrow-r-o.svg",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/includes/sj-floating-cta.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/_generator/css/tailwind.css",
+		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/sj-lite/style.css",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/_generator/css/temp-hk.css",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/template-parts/blocks/cta-hero/cta-hero.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/template-parts/blocks/faq/faq.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/template-parts/blocks/textmedia/textmedia.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/_generator/tailwind.config.js",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/_generator/css/color-pallette.css",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/template-parts/blocks/cta/cta.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/template-parts/blocks/contactsimple/contactsimple.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/template-parts/blocks/contact/contact.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/style.css",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/_generator/css/variables.css",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/_generator/package.json",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/_generator/css/styles.css",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/_generator/postcss.config.js",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/_generator/css/gutenberg-tailwind-reset.css",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/css/gutenberg-tailwind-reset.css",
+		"/Applications/MAMP/htdocs/drowa/wp-config.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/template-parts/blocks/image-box/image-box.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress/css/all.min.css",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/css/variables.css",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/css/styles.css",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/template-parts/blocks/cta-box/cta-box.php",
+		"/Applications/MAMP/htdocs/drowa/wp-content/themes/generatepress_child/css/temp-hk.css",
+		"/Users/sander/Projects/bibzies/icons/happy.svg",
+		"/Users/sander/Projects/bibzies/icons/materiaal.svg",
+		"/Users/sander/Projects/bibzies/icons/garantie.svg",
+		"/Users/sander/Projects/bibzies/icons/minus.svg",
+		"/Users/sander/Projects/bibzies/icons/plus-line.svg",
+		"/Users/sander/Projects/bibzies/icons/minus-line.svg",
+		"/private/var/folders/8f/720yy3h11m34f5c71nd7vd3h0000gn/T/6a4ee9f2-74a8-476c-87b1-6568ce18d207/httpdocs/marten-atsma/wp-config.php",
+		"/Users/sander/Projects/isolatiechips.be/placeholder-website/index.html",
+		"/Users/sander/Projects/isolatiechips.be/index.html",
+		"/Users/sander/Projects/isolatiechips.be/img/logo-drowa.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/template-parts/blocks/icon-box/icon-box.php",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/template-parts/blocks/image-box/image-box.php",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/template-parts/blocks/johnson-box/johnson-box.php",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/footer.php",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/css/sj.css",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/css/gutenberg-reset.css",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/css/variables.css",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/template-parts/blocks/text-media/text-media.php",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/header.php",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/css/underscores.css",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/css/tailwind.css",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/tailwind.config.js",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/postcss.config.js",
+		"/Users/sander/Local Sites/sj-theme/app/public/wp-content/themes/sj_theme/functions.php",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/functions.php",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/public/build/tailwind.css",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/style.css",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/inc/customizer.php",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bar-chart.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/battery-charging.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/battery.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bell-off.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bell.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bluetooth.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bold.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/book-open.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/book.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bookmark.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/box.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/briefcase.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/calendar.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/camera-off.svg",
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/camera.svg"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 153.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<figcaption>",
+			"text-xs",
+			"appear",
+			"https://www.sanderjanssen.nl",
+			"svg",
+			"border-brand-secondary",
+			"clip-path: polygon(0% 0%, 100% 6%, 99.5% 100%, .3% 91%);",
+			"first",
+			"yarn",
+			"this",
+			"css",
+			"img",
+			"mode",
+			"build"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1126,
+								1126
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tabs_extra_last_activated": 1591115404.17,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/transitions.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tabs_extra_last_activated": 1591115638.29,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "pages/blog/_slug.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								979,
+								979
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1591117232.14,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "components/Header.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1591117639.37,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "content/ecuador.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2712,
+								2712
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tabs_extra_last_activated": 1591118681.95,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "content/surfen-in-peru.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7695,
+								7695
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tabs_extra_last_activated": 1591118872.58,
+							"tabs_extra_last_activated_sheet_index": 5,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "content/slapen-is-voor-apen.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1007,
+								1007
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tabs_extra_last_activated": 1591195194.04,
+							"tabs_extra_last_activated_sheet_index": 6,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "content/werken-voor-en-aan-mezelf.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "content/caribische-kust.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2024,
+								1882
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tabs_extra_last_activated": 1591117635.21,
+							"tabs_extra_last_activated_sheet_index": 5,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "nuxtblog.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			],
+			[
+				"db.",
+				"anchor/config/db.php"
+			],
+			[
+				"app.php",
+				"anchor/config/app.php"
+			],
+			[
+				"db.php",
+				"anchor/config/db.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 302.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

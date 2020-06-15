@@ -1,0 +1,62 @@
+.frontmatter-markdown {
+	& a {
+		@apply underline;
+	}
+}
+.frontmatter-markdown, .content {
+	& blockquote {
+		@apply my-10 mx-2 font-serif text-2xl text-center leading-snug;
+	}
+	& img, & iframe {
+		@apply mb-4;
+	}
+	& img + em {
+		@apply block text-sm text-center text-gray-600;
+	}
+	& 169 {
+		padding-top: 56.25%;
+	}
+	& p + ul {
+		margin-top:-1.5rem;
+	}
+	& ul, & ol {
+		@apply pl-6;
+		margin-bottom:1.5rem;
+	}
+	& ol {
+		padding-left:2.3rem;
+	}
+
+	& ul li {
+		@apply relative list-none;
+	}
+
+	& ul li:before {
+		@apply absolute left-0 -ml-5 rounded-full bg-brand-secondary;
+		content:'';
+		top:.8em;
+		width:.375em;
+		height:.375em;
+		box-shadow: 0px 0px .325em 0px rgba(0,236,189,1);
+	}
+
+	& ol {
+		list-style-type: decimal;
+	}
+	& code {
+		@apply bg-gray-200 text-gray-700 p-4 rounded-sm block mb-6;
+		white-space:pre-wrap;
+		max-width:100%;
+	}
+	& code {
+		@apply skew;
+	}
+}
+
+@screen md {
+	.frontmatter-markdown {
+		& blockquote {
+			@apply text-3xl mx-16;
+		}
+	}
+}
