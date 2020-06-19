@@ -45,11 +45,6 @@ export default {
       posts: imports
     };
   },
-  head: {
-    bodyAttrs: {
-      class: 'blog',
-    }
-  },
   components: {
     Header,
     Footer,
@@ -57,7 +52,19 @@ export default {
   },
   data() {
     return {
-      prefix: 'blog'
+      prefix: 'blog',
+      title: 'Blog - Sander Janssen'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [ // Each object in this array is its own meta tag
+        { hid: 'description', name: 'description', content: 'Blog van Sander Janssen. Ik schrijf soms stukjes over technologie, mijn leven en andere zaken die me bezighouden.' }
+      ],
+      bodyAttrs: {
+        class: 'blog',
+      }
     }
   },
   computed: {

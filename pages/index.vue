@@ -64,6 +64,19 @@ import SanderTransparant from '~/assets/images/sander-transparant.svg';
 import Plant from '~/assets/images/plant.svg';
 
 export default {
+  data() {
+    return {
+      title: 'Test - Sander Janssen'
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [ // Each object in this array is its own meta tag
+        { hid: 'description', name: 'description', content: 'Hi, ik ben Sander Janssen. Ik kan je helpen met oa webdesign, webdevelopment, WordPress websites, conversie optimalisatie, SEO, SEA, webhosting.' }
+      ],
+    }
+  },
   components: {
     Header,
     Footer,

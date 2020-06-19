@@ -1,8 +1,8 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "My well-made Nuxt.js project",
-  "author": "Sander",
+  "description": "Hi, ik ben Sander Janssen. Ik kan je helpen met oa webdesign, webdevelopment, WordPress websites, conversie optimalisatie, SEO, SEA, webhosting.",
+  "author": "Sander Janssen",
   "private": true,
   "scripts": {
     "dev": "nuxt",
