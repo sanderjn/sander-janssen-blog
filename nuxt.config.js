@@ -56,6 +56,9 @@ export default {
       plugins: {
         'postcss-import': true,
         'autoprefixer': true,
+        'postcss-preset-env': {
+          stage: 1,
+        }
       }
     },
     extend (config, ctx) {

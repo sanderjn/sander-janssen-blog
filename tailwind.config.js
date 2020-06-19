@@ -16,9 +16,10 @@ module.exports = {
   	extend: {
   		colors: {
   			'brand-primary': '#007adf',
-  			'brand-secondary': '#00ecbc',
-        'brand-secondary-dark': '#04C59D',
-        'brand-secondary-50': 'rgba(0,236,188,.5)',
+  			// 'brand-secondary': '#00ecbc', iets te fel en licht
+        'brand-secondary': '#09dbb0',
+        'brand-secondary-dark': '#08ba96',
+        'brand-secondary-50': 'rgba(9,219,176,.5)',
   		},
   		fontFamily: {
   			'display': 'Peachy Keen JF'

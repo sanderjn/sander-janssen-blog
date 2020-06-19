@@ -5,7 +5,7 @@
       <Skew />
       <div class="content container z-10">
         <h1 class="font-display tracking-wide text-4xl lg:text-5xl text-white"><span class="mr-2 animation-appear block lg:inline-block">👋🏻</span> Hoi, ik ben <br class="md:hidden"> Sander Janssen</h1>
-        <div class="mt-10 lg:mt-24 text-lg lg:text-xl lg:flex gap-10">
+        <div class="mt-10 lg:mt-24 text-lg lg:text-xl md:grid md:grid-cols-2 gap-10">
           <!-- <div class="grid grid-cols-2 gap-10">
             <div class="mb-24 text-white border-4 border-solid border-white p-8" style="transform:rotate(-3deg);">
               <p>Ik kan je helpen met:</p>
@@ -40,7 +40,9 @@
               <li>Webhosting</li>
             </ul>
           </div>
-          <Sander class="hidden lg:block ml-auto mb-6 -mr-4 max-w-sm h-auto animation-appear" style="transform:rotate(3deg)"/>
+          <div class="hidden sm:block ml-auto self-center">
+            <Sander class="mb-6 -mr-4 w-full max-w-xs h-auto animation-appear" style="transform:rotate(3deg)"/>
+          </div>
           <!-- <SanderTransparant class="hidden lg:block ml-auto -mr-4 max-w-sm h-auto z-0 cursor-pointer" style="transform:rotate(3deg)"/> -->
         </div>
           <div class="mt-8 inline-block relative">

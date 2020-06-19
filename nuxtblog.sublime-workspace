@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"overflow-",
+				"overflow-hidden \tTailwind Class"
+			],
+			[
+				"duration",
+				"duration-200 \tTailwind Class"
+			],
+			[
 				"delay",
 				"delay-200 \tTailwind Class"
 			],
@@ -506,14 +514,6 @@
 			[
 				"border-b",
 				"border-b \tTailwind Class"
-			],
-			[
-				"justif",
-				"justify-center \tTailwind Class"
-			],
-			[
-				"track",
-				"tracking-normal \tTailwind Class"
 			]
 		]
 	},
@@ -523,16 +523,60 @@
 			"file": "assets/css/styles.css",
 			"settings":
 			{
-				"buffer_size": 1128,
+				"buffer_size": 722,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/css/transitions.css",
+			"file": "assets/css/markdown.css",
 			"settings":
 			{
-				"buffer_size": 725,
+				"buffer_size": 959,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nuxt.config.js",
+			"settings":
+			{
+				"buffer_size": 1531,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tailwind.config.js",
+			"settings":
+			{
+				"buffer_size": 661,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 662,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/index.vue",
+			"settings":
+			{
+				"buffer_size": 3070,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/blog/index.vue",
+			"settings":
+			{
+				"buffer_size": 2879,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -541,61 +585,16 @@
 			"file": "pages/blog/_slug.vue",
 			"settings":
 			{
-				"buffer_size": 2119,
+				"buffer_size": 2131,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "components/Header.vue",
+			"file": "components/Skew.vue",
 			"settings":
 			{
-				"buffer_size": 779,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/ecuador.md",
-			"settings":
-			{
-				"buffer_size": 7464,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/surfen-in-peru.md",
-			"settings":
-			{
-				"buffer_size": 8452,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/slapen-is-voor-apen.md",
-			"settings":
-			{
-				"buffer_size": 9126,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/werken-voor-en-aan-mezelf.md",
-			"settings":
-			{
-				"buffer_size": 3716,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "content/caribische-kust.md",
-			"settings":
-			{
-				"buffer_size": 7312,
+				"buffer_size": 845,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -656,51 +655,36 @@
 	[
 		"/Users/sander/Projects/nuxtblog",
 		"/Users/sander/Projects/nuxtblog/blog",
-		"/Users/sander/Projects/nuxtblog/blog/assets",
-		"/Users/sander/Projects/nuxtblog/blog/assets/css",
-		"/Users/sander/Projects/nuxtblog/blog/assets/images",
-		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog",
-		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog/7-sloten-tegelijk",
-		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog/caribische-kust",
-		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog/hello-world",
-		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog/werken-voor-en-aan-mezelf",
-		"/Users/sander/Projects/nuxtblog/blog/components",
-		"/Users/sander/Projects/nuxtblog/blog/content",
-		"/Users/sander/Projects/nuxtblog/blog/layouts",
-		"/Users/sander/Projects/nuxtblog/blog/pages",
-		"/Users/sander/Projects/nuxtblog/blog/pages/blog",
-		"/Users/sander/Projects/nuxtblog-oud",
-		"/Users/sander/Projects/nuxtblog-oud/blog",
-		"/Users/sander/Projects/nuxtblog-oud/blog/components",
-		"/Users/sander/Projects/nuxtblog-oud/blog/contents",
-		"/Users/sander/Projects/nuxtblog-oud/blog/pages",
-		"/Users/sander/Projects/nuxtblog-oud/blog/pages/blog",
-		"/Users/sander/Projects/nuxtblog-oud/img",
-		"/Users/sander/Projects/nuxtblog-oud/posts"
+		"/Users/sander/Projects/nuxtblog/blog/dist"
 	],
 	"file_history":
 	[
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/gradients.css",
+		"/Users/sander/Projects/nuxtblog/blog/tailwind.config.js",
+		"/Users/sander/Projects/nuxtblog/blog/components/Header.vue",
+		"/Users/sander/Projects/nuxtblog/blog/content/nuxt-tailwindcss-blog.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/slapen-is-voor-apen.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/surfen-in-peru.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/leren-mediteren.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/hij-ging-niet.md",
 		"/Users/sander/Projects/nuxtblog/blog/content/hello-world.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/guatape.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/geleerd-medellin.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/ecuador.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/caribische-kust.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/7-sloten-tegelijk.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/werken-voor-en-aan-mezelf.md",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/markdown.css",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/transitions.css",
+		"/Users/sander/Projects/nuxtblog/blog/pages/blog/_slug.vue",
+		"/Users/sander/Projects/nuxtblog-oud/blog/pages/blog/index.vue",
 		"/Users/sander/Projects/nuxtblog/blog/pages/blog/index.vue",
 		"/Users/sander/Projects/nuxtblog/blog/components/Footer.vue",
-		"/Users/sander/Projects/nuxtblog/blog/content/werken-voor-en-aan-mezelf.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/leren-mediteren.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/7-sloten-tegelijk.md",
 		"/Users/sander/Projects/nuxtblog/blog/pages/index.vue",
-		"/Users/sander/Projects/nuxtblog/blog/content/guatape.md",
-		"/Users/sander/Projects/nuxtblog/blog/tailwind.config.js",
 		"/Users/sander/Projects/nuxtblog/blog/components/Skew.vue",
-		"/Users/sander/Projects/nuxtblog/blog/assets/css/gradients.css",
-		"/Users/sander/Projects/nuxtblog/blog/assets/css/transitions.css",
-		"/Users/sander/Projects/nuxtblog/blog/components/Header.vue",
 		"/Users/sander/Projects/nuxtblog/blog/layouts/default.vue",
 		"/Users/sander/Projects/nuxtblog/blog/assets/css/styles.css",
-		"/Users/sander/Projects/nuxtblog/blog/content/hij-ging-niet.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/geleerd-medellin.md",
-		"/Users/sander/Projects/nuxtblog/blog/assets/css/markdown.css",
 		"/Users/sander/Projects/nuxtblog/blog/assets/css/tailwind.css",
-		"/Users/sander/Projects/nuxtblog/blog/pages/blog/_slug.vue",
-		"/Users/sander/Projects/nuxtblog/blog/content/caribische-kust.md",
 		"/Users/sander/Projects/nuxtblog/blog/package.json",
 		"/Users/sander/Projects/nuxtblog/blog/content/blog-twee.md",
 		"/Users/sander/Projects/nuxtblog/blog/nuxt.config.js",
@@ -802,12 +786,7 @@
 		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bold.svg",
 		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/book-open.svg",
 		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/book.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bookmark.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/box.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/briefcase.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/calendar.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/camera-off.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/camera.svg"
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bookmark.svg"
 	],
 	"find":
 	{
@@ -825,6 +804,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tail",
+			"loading",
+			"skew",
+			"loading",
+			"scale(1.02)",
+			"scale(1.05)",
+			"scaleX",
+			"img",
+			"fontmatter-markdown img",
+			".content code, .content img, .frontmatter-markdown code, .frontmatter-markdown img",
+			"top",
+			"375rem",
 			"<figcaption>",
 			"text-xs",
 			"appear",
@@ -856,7 +847,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -865,15 +856,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1128,
+						"buffer_size": 722,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1126,
-								1126
+								515,
+								515
 							]
 						],
 						"settings":
@@ -882,32 +873,33 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tabs_extra_last_activated": 1591115404.17,
+							"tabs_extra_last_activated": 1591969712.84,
 							"tabs_extra_last_activated_sheet_index": 0,
-							"tabs_extra_spawned": true
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "assets/css/transitions.css",
+					"file": "assets/css/markdown.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 725,
+						"buffer_size": 959,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								53,
-								53
+								623,
+								623
 							]
 						],
 						"settings":
@@ -916,9 +908,10 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tabs_extra_last_activated": 1591115638.29,
+							"tabs_extra_last_activated": 1591969710.62,
 							"tabs_extra_last_activated_sheet_index": 1,
-							"tabs_extra_spawned": true
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -929,19 +922,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "pages/blog/_slug.vue",
+					"file": "nuxt.config.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2119,
+						"buffer_size": 1531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								979,
-								979
+								850,
+								854
 							]
 						],
 						"settings":
@@ -949,9 +942,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
-							"tabs_extra_last_activated": 1591117232.14,
+							"tabs_extra_last_activated": 1591973355.65,
 							"tabs_extra_last_activated_sheet_index": 2,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
@@ -960,24 +953,96 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "components/Header.vue",
+					"file": "tailwind.config.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 779,
+						"buffer_size": 661,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								136,
-								136
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1591973419.14,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "package.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1592219737.82,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "pages/index.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2179,
+								2179
 							]
 						],
 						"settings":
@@ -987,8 +1052,85 @@
 							"synced": false,
 							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
 							"tab_size": 2,
-							"tabs_extra_last_activated": 1591117639.37,
+							"tabs_extra_last_activated": 1591972628.56,
 							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_moving":
+							[
+								2,
+								0
+							],
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "pages/blog/index.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								117
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1591969714.97,
+							"tabs_extra_last_activated_sheet_index": 5,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "pages/blog/_slug.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1591969550.29,
+							"tabs_extra_last_activated_sheet_index": 5,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
 						},
@@ -1000,157 +1142,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "content/ecuador.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7464,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2712,
-								2712
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tabs_extra_last_activated": 1591118681.95,
-							"tabs_extra_last_activated_sheet_index": 4,
-							"tabs_extra_spawned": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "content/surfen-in-peru.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8452,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7695,
-								7695
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tabs_extra_last_activated": 1591118872.58,
-							"tabs_extra_last_activated_sheet_index": 5,
-							"tabs_extra_spawned": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "content/slapen-is-voor-apen.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1007,
-								1007
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tabs_extra_last_activated": 1591195194.04,
-							"tabs_extra_last_activated_sheet_index": 6,
-							"tabs_extra_spawned": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "content/werken-voor-en-aan-mezelf.md",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3716,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tabs_extra_spawned": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
 					"buffer": 8,
-					"file": "content/caribische-kust.md",
+					"file": "components/Skew.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7312,
+						"buffer_size": 845,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2024,
-								1882
+								364,
+								364
 							]
 						],
 						"settings":
@@ -1158,16 +1163,16 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tabs_extra_last_activated": 1591117635.21,
-							"tabs_extra_last_activated_sheet_index": 5,
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tabs_extra_last_activated": 1591969604.37,
+							"tabs_extra_last_activated_sheet_index": 7,
 							"tabs_extra_spawned": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]

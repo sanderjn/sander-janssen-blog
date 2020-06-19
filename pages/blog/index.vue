@@ -31,7 +31,7 @@ import Footer from '~/components/Footer.vue'
 import Skew from '~/components/Skew.vue'
 import Vue from 'vue'
 import inViewportDirective from 'vue-in-viewport-directive'
-inViewportDirective.defaults.margin = '-15% 0%'
+inViewportDirective.defaults.margin = '-10% 0%'
 Vue.directive('in-viewport', inViewportDirective)
 
 export default {
