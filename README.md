@@ -1,6 +1,6 @@
 # blog
 
-> My well-made Nuxt.js project
+> My Nuxt.js blog. Using Markdown for posts and TailwindCSS for styling.
 
 ## Build Setup
 
