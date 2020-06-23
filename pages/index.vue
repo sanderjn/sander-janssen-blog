@@ -41,7 +41,7 @@
             </ul>
           </div>
           <div class="hidden sm:block ml-auto self-center">
-            <Sander class="mb-6 -mr-4 w-full max-w-xs h-auto animation-appear" style="transform:rotate(3deg)"/>
+            <Sander class="mb-6 -mr-4 w-full max-w-xs h-auto animation-appear" style="transform:rotate(0deg)"/>
           </div>
           <!-- <SanderTransparant class="hidden lg:block ml-auto -mr-4 max-w-sm h-auto z-0 cursor-pointer" style="transform:rotate(3deg)"/> -->
         </div>
@@ -59,7 +59,7 @@
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 import Skew from '~/components/Skew.vue'
-import Sander from '~/assets/images/sander.svg';
+import Sander from '~/assets/images/sander-square.svg';
 import SanderTransparant from '~/assets/images/sander-transparant.svg';
 import Plant from '~/assets/images/plant.svg';
 
@@ -75,6 +75,9 @@ export default {
       meta: [ // Each object in this array is its own meta tag
         { hid: 'description', name: 'description', content: 'Hi, ik ben Sander Janssen. Ik kan je helpen met oa webdesign, webdevelopment, WordPress websites, conversie optimalisatie, SEO, SEA, webhosting.' }
       ],
+      bodyAttrs: {
+        class: 'home',
+      }
     }
   },
   components: {
@@ -84,11 +87,6 @@ export default {
     Sander,
     SanderTransparant,
     Plant,
-  },
-  head: {
-    bodyAttrs: {
-      class: 'home',
-    }
   },
 }
 </script>

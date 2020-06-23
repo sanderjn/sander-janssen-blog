@@ -2,6 +2,19 @@
 const path = require("path");
 import Mode from 'frontmatter-markdown-loader/mode'
 
+var glob = require('glob');
+
+async function getDynamicPaths(urlFilepathTable) {
+  return [].concat(
+    ...Object.keys(urlFilepathTable).map(url => {
+      var filepathGlob = urlFilepathTable[url];
+      return glob
+        .sync(filepathGlob, { cwd: 'content' })
+        .map(filepath => `${url}/${path.basename(filepath, '.md')}`);
+    })
+  );
+}
+
 export default {
   mode: 'spa',
   /*
@@ -44,6 +57,7 @@ export default {
   */
   modules: [
     'nuxt-svg-loader',
+    '@nuxtjs/sitemap',
   ],
   /*
   ** Build configuration
@@ -68,10 +82,15 @@ export default {
         include: path.resolve(__dirname, "content"),
         loader: "frontmatter-markdown-loader",
         options: {
-          // Maakt dingen stuk
           mode: [Mode.VUE_COMPONENT, Mode.META]
         }
       });
     }
-  }
+  },
+  // 'Export default async () =>' WERKT NIET
+  // generate: {
+  //   routes:  await getDynamicPaths({
+  //     '/posts': 'posts/*.md'
+  //   })
+  // }
 }
