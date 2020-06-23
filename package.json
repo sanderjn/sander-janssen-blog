@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Hi, ik ben Sander Janssen. Ik kan je helpen met oa webdesign, webdevelopment, WordPress websites, conversie optimalisatie, SEO, SEA, webhosting.",
   "author": "Sander Janssen",
-  "private": true,
+  // "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
