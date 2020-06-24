@@ -66,7 +66,7 @@ import Plant from '~/assets/images/plant.svg';
 export default {
   data() {
     return {
-      title: 'Test - Sander Janssen'
+      title: 'Webdesign & webdevelopment - Sander Janssen'
     }
   },
   head () {
