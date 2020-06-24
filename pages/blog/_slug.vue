@@ -3,10 +3,12 @@
     <Header/>
     <main class="flex-1">
       <article>
-        <section class="relative md:mx-4 lg:mx-8 py-10 md:py-16 bg-brand-primary bg-center bg-cover" v-bind:style="{ backgroundImage: 'url(' + image + ')' }">
+        <section class="relative md:mx-4 lg:mx-8 py-10 md:py-16 bg-brand-primary bg-center bg-cover" style="height:60vh" v-bind:style="{ backgroundImage: 'url(' + image + ')' }">
           <div class="absolute top-0 left-0 w-full h-full gradient-black-transparent z-0" style=""></div>
           <Skew />
-          <h1 class="mt-64 text-4xl lg:text-5xl font-display text-white relative container z-10">{{title}}</h1>
+          <div class="w-full h-full flex items-end">
+            <h1 class="absolute text-center text-4xl lg:text-5xl font-display text-white relative container z-10">{{title}}</h1>
+          </div>
         </section>
         <section class="mt-20 mb-10  container max-w-2xl content animation-appear">
           <component class="markdown" :is="singlePostComponent" />

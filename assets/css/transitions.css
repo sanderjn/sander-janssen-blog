@@ -24,7 +24,7 @@
 
 .animation-gradient {
 	background-size: 300% 300%;
-	animation: AnimateGradient 10s ease infinite;
+	animation: AnimateGradient 16s ease infinite;
 }
 
 @keyframes AnimateGradient {

@@ -22,7 +22,8 @@ module.exports = {
         'brand-secondary-50': 'rgba(9,219,176,.5)',
   		},
   		fontFamily: {
-  			'display': 'Peachy Keen JF'
+  			// 'display': 'Peachy Keen JF'
+        'display': 'Inter'
   		}
   	}
   },

@@ -6,12 +6,18 @@ html {
 	font-size:var(--font-size);
 }
 
+@font-face {
+  font-family: 'Inter';
+  font-weight: 900;
+  src: url('~assets/fonts/Inter-Black-slnt=0.ttf') format('ttf')
+}
+
 body {
 	@apply min-h-screen leading-loose text-gray-900;
 }
 
 h1 {
-  @apply my-2;
+  @apply my-2 font-black leading-snug tracking-tight;
 }
 h2 {
   @apply text-2xl my-3;
@@ -28,7 +34,7 @@ h5 {
 h6 {
   @apply text-xs;
 }
-h1,h2,h3,h4 {
+h2,h3,h4 {
   @apply font-medium leading-snug;
 }
 p {

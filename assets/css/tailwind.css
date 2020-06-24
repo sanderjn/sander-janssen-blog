@@ -1,9 +1,9 @@
 /* purgecss start ignore */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-/* purgecss end ignore */
 @import 'styles.css';
 @import 'markdown.css';
 @import 'transitions.css';
 @import 'gradients.css';
+/* purgecss end ignore */
 @import 'tailwindcss/utilities';

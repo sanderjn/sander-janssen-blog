@@ -4,7 +4,7 @@
     <main class="flex-1 relative lg:mx-4 xl:mx-8 py-10 md:py-16 gradient-complex animation-gradient">
       <Skew />
       <div class="content container z-10">
-        <h1 class="font-display tracking-wide text-4xl lg:text-5xl text-white"><span class="mr-2 animation-appear block lg:inline-block">👋🏻</span> Hoi, ik ben <br class="md:hidden"> Sander Janssen</h1>
+        <h1 class="font-display text-4xl lg:text-5xl text-white"><span class="mr-2 animation-appear block lg:inline-block">👋🏻</span> Hoi, ik ben <br class="md:hidden"> Sander Janssen</h1>
         <div class="mt-10 lg:mt-24 text-lg lg:text-xl md:grid md:grid-cols-2 gap-10">
           <!-- <div class="grid grid-cols-2 gap-10">
             <div class="mb-24 text-white border-4 border-solid border-white p-8" style="transform:rotate(-3deg);">
@@ -47,7 +47,7 @@
         </div>
           <div class="mt-8 inline-block relative">
             <div class="absolute bg-white w-full h-full z-0 skew-text shadow-lg"></div>
-            <p class="font-display py-1 px-2 mb-0 relative text-xl lg:text-2xl z-10"><span class="md:text-2xl lg:text-3xl">🤝</span> Samenwerken?<br class="md:hidden"> Stuur me <a href="mailto:hello@sanderjanssen.nl" target="_blank" class="text-gray-900 underline">een berichtje</a>!</p>
+            <p class="font-display font-black py-1 px-2 mb-0 relative text-xl lg:text-2xl z-10"><span class="md:text-2xl lg:text-3xl">🤝</span> Samenwerken?<br class="md:hidden"> Stuur me <a href="mailto:hello@sanderjanssen.nl" target="_blank" class="text-gray-900 underline">een berichtje</a>!</p>
           </div>
       </div>
     </main>

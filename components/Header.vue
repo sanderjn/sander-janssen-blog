@@ -1,6 +1,6 @@
 <template>
   <header class="container py-8 flex justify-between items-center">
-    <nuxt-link class="flex items-end space-x-4 text-xl sm:text-2xl font-medium leading-none" to="/">
+    <nuxt-link class="flex items-end space-x-4 text-xl sm:text-2xl font-black leading-none" to="/">
       <!-- <logo class="w-8" /> -->
       <span class="font-display">Sander Janssen</span>
     </nuxt-link>
