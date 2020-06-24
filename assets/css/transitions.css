@@ -23,14 +23,15 @@
 }
 
 .animation-gradient {
-	background-size: 200% 200%;
-	animation: AnimateGradient 14s ease infinite;
+	background-size: 300% 300%;
+	animation: AnimateGradient 10s ease infinite;
 }
 
 @keyframes AnimateGradient {
-    0%{background-position:0% 90%}
-    50%{background-position:100% 11%}
-    100%{background-position:0% 90%}
+    0%{background-position:0% 10%}
+    30%{background-position:100% 20%}
+    60%{background-position:50% 90%}
+    100%{background-position:0% 10%}
 }
 
 .skew {

@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col">
     <Header/>
-    <main class="flex-1 relative lg:mx-4 xl:mx-8 py-10 md:py-16 gradient-green-blue animation-gradient">
+    <main class="flex-1 relative lg:mx-4 xl:mx-8 py-10 md:py-16 gradient-complex animation-gradient">
       <Skew />
       <div class="content container z-10">
         <h1 class="font-display tracking-wide text-4xl lg:text-5xl text-white"><span class="mr-2 animation-appear block lg:inline-block">👋🏻</span> Hoi, ik ben <br class="md:hidden"> Sander Janssen</h1>

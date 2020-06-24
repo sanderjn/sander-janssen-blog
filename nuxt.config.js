@@ -87,7 +87,7 @@ export default async () => {
         });
       }
     },
-    // 'Export default async () =>' WERKT NIET
+    // WERKT NIET
     generate: {
       routes:  await getDynamicPaths({
         '/posts': 'posts/*.md'
