@@ -6,7 +6,7 @@
       <div class="fixed w-full text-center bottom-0 pb-2 z-0 text-white text-sm opacity-75">↓ Scroll voor meer</div>
       <div class="relative z-10">
         <div class="container text-white">
-          <h1 class="text-4xl lg:text-5xl font-display"><span class="mr-2 animation-appear block lg:inline-block">📝</span> Blog</h1>
+          <h1 class="text-4xl lg:text-5xl font-display">Blog</h1>
           <p class="text-lg">Met soms een nieuwe post</p>
         </div>
         <main class="container mt-20 mb-10 md:grid md:grid-cols-2 space-y-10 md:space-y-0 md:col-gap-6 md:row-gap-20">
@@ -35,7 +35,7 @@ import Footer from '~/components/Footer.vue'
 import Skew from '~/components/Skew.vue'
 import Vue from 'vue'
 import inViewportDirective from 'vue-in-viewport-directive'
-inViewportDirective.defaults.margin = '-10% 0%'
+inViewportDirective.defaults.margin = '-5% 0%'
 Vue.directive('in-viewport', inViewportDirective)
 
 export default {
