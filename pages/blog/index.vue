@@ -16,7 +16,7 @@
                   <div class="absolute top-0 left-0 w-full h-full gradient-black-transparent" style=""></div>
                 </nuxt-link>
                 <nuxt-link :to="getPermalink(post)" class="absolute z-10 left-0 bottom-0 py-4 px-6">
-                  <h3 class="text-white text-2xl font-display mb-0">{{post.attributes.title}}</h3>
+                  <h3 class="text-white text-2xl font-display font-black mb-0">{{post.attributes.title}}</h3>
                   <span class="text-sm text-white opacity-75">{{prettyDate(post)}} in {{post.attributes.category}}</span>
                 </nuxt-link>
             </article>
