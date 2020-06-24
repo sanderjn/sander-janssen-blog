@@ -74,9 +74,9 @@ nav a:hover, nav a.nuxt-link-active {
 
 .skewclass {
 	&.skewtop {
-		transform: scale(1.01) translateY(-2px);
+		transform: scale(1.001) translateY(-1px);
 	}
 	&.skewbottom {
-		transform: scale(1.01) translateY(2px);
+		transform: scale(1.001) translateY(1px);
 	}
 }

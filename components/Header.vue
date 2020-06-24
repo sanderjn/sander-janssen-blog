@@ -1,7 +1,7 @@
 <template>
   <header class="container py-8 flex justify-between items-center">
     <nuxt-link class="flex items-end space-x-4 text-xl sm:text-2xl font-black leading-none" to="/">
-      <!-- <logo class="w-8" /> -->
+      <!-- <logo class="w-8 h-8" /> -->
       <span class="font-display">Sander Janssen</span>
     </nuxt-link>
     <nav class="space-x-4 leading-none">
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Logo from '~/assets/images/svg/logo.svg';
 
 export default {
   components: {

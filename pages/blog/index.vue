@@ -9,13 +9,16 @@
           <h1 class="text-4xl lg:text-5xl font-display"><span class="mr-2 animation-appear block lg:inline-block">📝</span> Blog</h1>
           <p class="text-lg">Met soms een nieuwe post</p>
         </div>
-        <main class="container mt-20 mb-10 md:grid md:grid-cols-2 xl:grid-cols-3 space-y-10 md:space-y-0 md:col-gap-6 md:row-gap-20">
-            <article v-for="post in orderedPosts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="bg-white shadow-lg opacity-0 transform translate-y-32 transition duration-1000 ease-in-out" v-in-viewport.once>
-                <nuxt-link :to="getPermalink(post)" class="w-full animation-zoom bg-gray-800"><img class="w-full h-48 object-cover" :src="imgSrc(post)" :alt="title"/></nuxt-link>
-                <div class="py-4 px-6">
-                  <nuxt-link :to="getPermalink(post)" class="text-xs"><span class="text-gray-500">{{prettyDate(post)}} in</span> <span class="text-gray-600">{{post.attributes.category}}</span></nuxt-link>
-                  <nuxt-link :to="getPermalink(post)"><h3 class="text-base mt-1">{{post.attributes.title}}</h3></nuxt-link>
-                </div>
+        <main class="container mt-20 mb-10 md:grid md:grid-cols-2 space-y-10 md:space-y-0 md:col-gap-6 md:row-gap-20">
+            <article v-for="post in orderedPosts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="relative h-64 bg-white shadow-lg opacity-0 transform translate-y-32 transition duration-1000 ease-in-out animation-zoom" v-in-viewport.once>
+                <nuxt-link :to="getPermalink(post)" class="relative z-0 w-full h-full bg-gray-800"><img class="w-full h-full object-cover" :src="imgSrc(post)" :alt="title"/></nuxt-link>
+                <nuxt-link :to="getPermalink(post)" class="absolute top-0 left-0 w-full h-full z-0">
+                  <div class="absolute top-0 left-0 w-full h-full gradient-black-transparent" style=""></div>
+                </nuxt-link>
+                <nuxt-link :to="getPermalink(post)" class="absolute z-10 left-0 bottom-0 py-4 px-6">
+                  <h3 class="text-white text-2xl font-display mb-0">{{post.attributes.title}}</h3>
+                  <span class="text-sm text-white opacity-75">{{prettyDate(post)}} in {{post.attributes.category}}</span>
+                </nuxt-link>
             </article>
         </main>
       </div>
