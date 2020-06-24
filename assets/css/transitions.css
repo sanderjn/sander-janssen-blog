@@ -49,5 +49,5 @@ a:hover .cta-arrow {
 }
 
 .opacity-0.in-viewport {
-	@apply opacity-100;
+	@apply opacity-100 translate-y-0;
 }

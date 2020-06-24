@@ -3,13 +3,14 @@
     <Header/>
     <div class="flex-1 relative lg:mx-4 xl:mx-8 py-10 md:py-16 gradient-complex animation-gradient">
       <Skew />
+      <div class="fixed w-full text-center bottom-0 pb-2 z-0 text-white text-sm opacity-75">↓ Scroll voor meer</div>
       <div class="relative z-10">
         <div class="container text-white">
           <h1 class="text-4xl lg:text-5xl font-display"><span class="mr-2 animation-appear block lg:inline-block">📝</span> Blog</h1>
           <p class="text-lg">Met soms een nieuwe post</p>
         </div>
-        <main class="container mt-20 mb-10 md:grid md:grid-cols-2 xl:grid-cols-3 space-y-10 md:space-y-0 md:gap-6">
-            <article v-for="post in orderedPosts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="bg-white shadow-lg opacity-0 transition-opacity duration-500 ease-in-out" v-in-viewport.once>
+        <main class="container mt-20 mb-10 md:grid md:grid-cols-2 xl:grid-cols-3 space-y-10 md:space-y-0 md:col-gap-6 md:row-gap-20">
+            <article v-for="post in orderedPosts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="bg-white shadow-lg opacity-0 transform translate-y-32 transition duration-1000 ease-in-out" v-in-viewport.once>
                 <nuxt-link :to="getPermalink(post)" class="w-full animation-zoom bg-gray-800"><img class="w-full h-48 object-cover" :src="imgSrc(post)" :alt="title"/></nuxt-link>
                 <div class="py-4 px-6">
                   <nuxt-link :to="getPermalink(post)" class="text-xs"><span class="text-gray-500">{{prettyDate(post)}} in</span> <span class="text-gray-600">{{post.attributes.category}}</span></nuxt-link>
