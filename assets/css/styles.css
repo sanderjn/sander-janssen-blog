@@ -9,7 +9,8 @@ html {
 @font-face {
   font-family: 'Inter';
   font-weight: 900;
-  src: url('~assets/fonts/Inter-Black-slnt=0.ttf') format('ttf')
+  src: local('Inter Black'),
+  url('~assets/fonts/Inter-Black-slnt=0.ttf') format('ttf');
 }
 
 body {
