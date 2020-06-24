@@ -3,7 +3,7 @@ title: (Proberen te) surfen in Peru
 category: Reizen
 date: 2018-05-26
 status: published
-excerpt: Test excerpt
+excerpt: De laatste dagen in het hostel Izhcayluma in Vilcabamba, Ecuador (zoals te lezen in de vorige post) vlogen voorbij. Een super relaxt hostel op een heel mooie plek in de bergen, met gratis yoga lessen met geweldig uitzicht in de ochtend en een goed restaurant met oa een paar typisch Duitse gerechten (want de eigenaren zijn Duits).
 hero: peru/surfpro.jpg
 ---
 

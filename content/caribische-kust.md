@@ -3,7 +3,7 @@ title: Caribische kust
 category: Reizen
 date: 2017-11-06
 status: published
-excerpt: Test excerpt
+excerpt: Op 14 oktober vertrok ik, na 4 weken, dan eindelijk uit Medellín. Na 14 uur levend bevroren te zijn in de bus kwam ik aan in Cartagena, wat na de rijdende vriezer aanvoelt als een grote heteluchtoven.
 hero: caribische-kust/parque-tayrona.jpg
 ---
 

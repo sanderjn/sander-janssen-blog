@@ -3,7 +3,7 @@ title: Leren mediteren
 category: Leven
 date: 2018-03-29
 status: published
-excerpt: Test excerpt
+excerpt: Onder andere in de vele podcasts die ik de laatste tijd luister valt het me op dat erg veel slimme en succesvolle mensen aan het mediteren zijn geslagen en daar heel enthousiast over zijn. Eerst dacht ik "zal wel", maar ik bleef er steeds meer mensen over horen en iedereen was er zo ontzettend positief over! Het was voor mij best wel een shock dat mediteren blijkbaar nu ineens cool is.
 hero: leren-mediteren/mediteren.jpg
 ---
 

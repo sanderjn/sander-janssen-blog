@@ -3,7 +3,7 @@ title: Ecuador
 category: Reizen
 date: 2018-04-08
 status: published
-excerpt: Test excerpt
+excerpt: In dit reisverslag vertel ik over het vervolg van mijn reis in Ecuador, waar ik ga werken bij een BnB aan de kust.
 hero: ecuador/villadelossuenos-uitzicht.jpg
 ---
 

@@ -3,7 +3,7 @@ title: Guatapé
 category: Reizen
 date: 2017-09-19
 status: published
-excerpt: Test excerpt
+excerpt: Hoera, het is gelukt! Na de mislukte poging op donderdag ben ik vrijdag zonder problemen via Madrid naar Medellín gevlogen, waar ik rond 8 uur 's avonds lokale tijd landde.
 hero: guatape/guatape-rots.jpg
 ---
 

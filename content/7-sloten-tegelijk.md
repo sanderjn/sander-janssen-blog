@@ -3,7 +3,7 @@ title: 7 sloten tegelijk
 category: Reizen
 date: 2017-11-17
 status: published
-excerpt: Test excerpt
+excerpt: “Huh, alweer een blog? Je deed daar toch niet zo heel veel?”. Dat klopt. Zelf had ik ook niet verwacht na iets meer dan een week alweer genoeg materiaal te hebben voor een nieuwe post, maar er is de afgelopen week veel gebeurd.
 hero: 7-sloten-tegelijk/sloot.jpg
 ---
 

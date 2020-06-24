@@ -3,7 +3,7 @@ title: Nuxt + TailwindCSS + markdown blog
 category: Tech
 date: 2020-06-12
 status: concept
-excerpt: Test excerpt
+excerpt: In deze blogpost leg ik uit hoe ik dit blog heb gebouwd met NuxtJS en TailwdindCSS. De blogposts zelf schrijf ik in Markdown. Er valt over te discussieren of dit de beste, meest handige manier is om een blog te bouwen, maar het is zeker een leuk project.
 hero: nuxt-tailwindcss-blog/nuxtjs-logo.jpg
 ---
 

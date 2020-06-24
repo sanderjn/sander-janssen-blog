@@ -3,7 +3,7 @@ title: Dit heb ik geleerd na twee weken Medellín
 category: Reizen
 date: 2017-10-02
 status: published
-excerpt: Test excerpt
+excerpt: Twee weken verder. Kom ondertussen steeds meer te weten over de Spaanse taal, Colombia en Medellín. Omdat ik ook de beroerdste niet ben deel ik deze informatie met jullie, doe er je voordeel mee.
 hero: medellin/medellin-small.jpg
 ---
 

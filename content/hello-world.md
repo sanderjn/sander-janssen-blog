@@ -3,7 +3,7 @@ title: Hello World
 category: Meta
 date: 2017-09-05
 status: published
-excerpt: Test excerpt
+excerpt: Op 14 september vlieg ik voor onbepaalde tijd naar Zuid-Amerika (via Kopenhagen en Miami, want goedkoop), om precies te zijn naar Medellín, Colombia.
 hero: hello-world/kaart-small.jpg
 ---
 

@@ -3,7 +3,7 @@ title: Werken voor en aan mezelf
 category: Leven
 date: 2018-03-28
 status: published
-excerpt: Test excerpt
+excerpt: Sinds een paar maanden luister ik weer erg veel podcasts (naast Twitter een ander ding wat voor mij ineens weer is opgestaan uit de dood). In een aantal van de podcasts waar ik vaak naar luister (oa van Tim Ferris, Jelmer de Boer en Peter Joosten) gaat het vaak over fitness, lifestyle en ergens beter in worden/werken aan jezelf.
 hero: werken-voor-en-aan-mezelf/aap.jpg
 ---
 

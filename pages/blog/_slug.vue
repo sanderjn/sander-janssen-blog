@@ -33,6 +33,7 @@ export default {
       return {
         title: post.attributes.title,
         date: post.attributes.date,
+        excerpt: post.attributes.excerpt,
         image: require(`~/assets/images/blog/${post.attributes.hero}`),
         singlePostComponent: post.vue.component
       };
@@ -45,6 +46,23 @@ export default {
     Header,
     Footer,
     Skew,
+  },
+  data() {
+    return {
+      prefix: 'blog',
+      title: 'Blog - Sander Janssen'
+    }
+  },
+  head () {
+    return {
+      title: this.title + ' - Sander Janssen',
+      meta: [ // Each object in this array is its own meta tag
+        { hid: 'description', name: 'description', content: this.excerpt }
+      ],
+      bodyAttrs: {
+        class: 'blog',
+      }
+    }
   },
 };
 </script>

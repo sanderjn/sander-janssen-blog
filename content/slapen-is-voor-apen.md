@@ -3,7 +3,7 @@ title: Slapen is voor apen
 category: Leven
 date: 2018-12-18
 status: published
-excerpt: Test excerpt
+excerpt: Ik had wel weer even zin om te schrijven en dus heb ik mijn blogpost over slaap maar eens afgemaakt. Ik vertel waarom slaap een steeds prominentere plek in mijn leven heeft gekregen en wat ik doe om goed en voldoende te slapen.
 hero: slapen/aap.jpg
 ---
 

@@ -3,7 +3,7 @@ title: Ken je die mop van die jongen die naar Colombia zou vliegen?
 category: Reizen
 date: 2017-09-14
 status: published
-excerpt: Test excerpt
+excerpt: Ik was er helemaal klaar voor, de vlucht naar Colombia. Gisteravond de tas helemaal ingepakt, boarding pass alvast geprint, gedoucht en een soort van op tijd gaan slapen. Vanochtend om 4 uur ging de wekker en om 20 over 4 reden we (papa bracht me naar Eindhoven) weg uit Nijeveen. Om 6 uur kwamen we aan bij P3 van Eindhoven Airport.
 hero: hello-world/vliegtuig.jpg
 ---
 
