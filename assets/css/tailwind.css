@@ -2,8 +2,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'styles.css';
+@import 'markdown.css';
 @import 'transitions.css';
 @import 'gradients.css';
 /* purgecss end ignore */
-@import 'markdown.css';
 @import 'tailwindcss/utilities';

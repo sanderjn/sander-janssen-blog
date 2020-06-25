@@ -5,7 +5,11 @@
 }
 .frontmatter-markdown, .content {
 	& blockquote {
-		@apply my-10 mx-2 font-serif text-2xl text-center leading-snug;
+		@apply my-10 mx-2;
+
+		& p {
+			@apply font-serif text-2xl text-center leading-snug;
+		}
 	}
 	& img, & iframe {
 		@apply mb-4;
