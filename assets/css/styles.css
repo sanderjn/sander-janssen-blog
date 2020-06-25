@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  @apply my-2 font-black leading-snug;
+  @apply text-3xl my-2 font-black leading-snug;
 }
 h2 {
   @apply text-2xl my-3;
