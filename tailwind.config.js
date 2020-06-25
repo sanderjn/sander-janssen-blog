@@ -11,9 +11,6 @@ module.exports = {
     "./plugins/**/*.vue",
     "./static/**/*.vue",
     "./store/**/*.vue",
-    options: {
-      whitelist: ['markdown'],
-    }
   ],
   theme: {
   	extend: {
