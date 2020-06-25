@@ -40,13 +40,6 @@
 	& ol {
 		list-style-type: decimal;
 	}
-	& blockquote {
-		@apply my-10 mx-2;
-
-		& p {
-			@apply font-serif text-xl text-center leading-snug;
-		}
-	}
 	& code {
 		@apply bg-gray-200 text-gray-700 p-4 rounded-sm block mb-6;
 		white-space:pre-wrap;
@@ -57,10 +50,17 @@
 	}
 }
 
+
+blockquote {
+	@apply my-10 mx-2;
+
+	& p {
+		@apply font-serif text-xl text-center leading-snug;
+	}
+}
+
 @screen md {
-	.markdown {
-		& blockquote {
-			@apply text-2xl mx-16;
-		}
+	blockquote {
+		@apply text-2xl mx-16;
 	}
 }
