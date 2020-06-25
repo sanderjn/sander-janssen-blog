@@ -13,7 +13,7 @@
 	& img + em {
 		@apply block text-sm text-center text-gray-600;
 	}
-	& 169 {
+	& .169 {
 		padding-top: 56.25%;
 	}
 	& p + ul {

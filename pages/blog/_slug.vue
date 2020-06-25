@@ -34,10 +34,10 @@ export default {
       let post = await import(`~/content/${params.slug}.md`);
       return {
         title: post.attributes.title,
+        singlePostComponent: post.vue.component,
         date: post.attributes.date,
         excerpt: post.attributes.excerpt,
         image: require(`~/assets/images/blog/${post.attributes.hero}`),
-        singlePostComponent: post.vue.component
       };
     } catch (err) {
       console.debug(err);
