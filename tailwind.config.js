@@ -5,13 +5,18 @@
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
 module.exports = {
-  purge: [
-    "./pages/**/*.vue", 
-    "./components/**/*.vue", 
-    "./plugins/**/*.vue",
-    "./static/**/*.vue",
-    "./store/**/*.vue",
-  ],
+  purge: {
+    content: [
+      "./pages/**/*.vue",
+      "./components/**/*.vue", 
+      "./plugins/**/*.vue",
+      "./static/**/*.vue",
+      "./store/**/*.vue",
+    ],
+    options: {
+      whitelist: ['markdown'],
+    }
+  },
   theme: {
   	extend: {
   		colors: {
