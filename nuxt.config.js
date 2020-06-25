@@ -57,7 +57,7 @@ export default async () => {
     */
     modules: [
       'nuxt-svg-loader',
-      // '@nuxtjs/sitemap',
+      '@nuxtjs/sitemap',
     ],
     /*
     ** Build configuration
@@ -91,9 +91,9 @@ export default async () => {
       hostname: 'https://www.sanderjanssen.nl',
     },
   }
-  generate: {
-    routes:  await getDynamicPaths({
-      '/posts': 'posts/*.md'
-    })
-  }
+  // generate: {
+  //   routes:  await getDynamicPaths({
+  //     '/posts': 'posts/*.md'
+  //   })
+  // }
 }
