@@ -10,7 +10,10 @@ module.exports = {
     "./components/**/*.vue", 
     "./plugins/**/*.vue",
     "./static/**/*.vue",
-    "./store/**/*.vue"
+    "./store/**/*.vue",
+    options: {
+      whitelist: ['markdown'],
+    }
   ],
   theme: {
   	extend: {
