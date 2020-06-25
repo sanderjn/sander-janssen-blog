@@ -86,7 +86,9 @@ export default {
   },
   sitemap: {
     hostname: 'https://www.sanderjanssen.nl',
+    path: '/sitemap.xml',
     routes() {
+      '/blog';
       const fs = require('fs');
       return fs.readdirSync('./assets/content/writing').map((file) => {
         return {
@@ -97,6 +99,7 @@ export default {
   },
   generate: {
     routes() {
+      '/blog';
       const fs = require('fs');
       return fs.readdirSync('./assets/content/writing').map((file) => {
         return {
