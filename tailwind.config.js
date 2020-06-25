@@ -8,6 +8,7 @@ module.exports = {
   purge: {
     content: [
       "./pages/**/*.vue",
+      "./layouts/**/*.vue",
       "./components/**/*.vue", 
       "./plugins/**/*.vue",
       "./static/**/*.vue",
