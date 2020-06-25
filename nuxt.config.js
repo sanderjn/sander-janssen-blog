@@ -68,11 +68,11 @@ export default async () => {
       */
       postcss: {
         plugins: {
-          // 'postcss-import': true,
-          // 'autoprefixer': true,
-          // 'postcss-preset-env': {
-            // stage: 1,
-          // }
+          'postcss-import': true,
+          'autoprefixer': true,
+          'postcss-preset-env': {
+            stage: 1,
+          }
         }
       },
       extend(config, ctx) {
