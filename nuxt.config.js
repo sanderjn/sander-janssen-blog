@@ -57,7 +57,7 @@ export default async () => {
     */
     modules: [
       'nuxt-svg-loader',
-      '@nuxtjs/sitemap',
+      // '@nuxtjs/sitemap',
     ],
     /*
     ** Build configuration
@@ -68,14 +68,14 @@ export default async () => {
       */
       postcss: {
         plugins: {
-          'postcss-import': true,
-          'autoprefixer': true,
-          'postcss-preset-env': {
-            stage: 1,
-          }
+          // 'postcss-import': true,
+          // 'autoprefixer': true,
+          // 'postcss-preset-env': {
+            // stage: 1,
+          // }
         }
       },
-      extend (config, ctx) {
+      extend(config, ctx) {
         // add frontmatter-markdown-loader
         config.module.rules.push({
           test: /\.md$/,
