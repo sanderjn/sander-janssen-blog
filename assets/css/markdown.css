@@ -1,4 +1,3 @@
-/* purgecss start ignore */
 .markdown {
 	& a {
 		@apply underline;
@@ -62,4 +61,3 @@
 		}
 	}
 }
-/* purgecss end ignore */
