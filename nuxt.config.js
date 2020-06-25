@@ -100,6 +100,9 @@ export default async () => {
     },
     sitemap: {
       hostname: 'https://www.sanderjanssen.nl',
+        routes:  await getDynamicPaths({
+        '/blog': 'blog/*.md'
+      })
     },
   }
   generate: {
