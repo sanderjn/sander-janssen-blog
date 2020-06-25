@@ -10,12 +10,12 @@
           <p class="text-lg">Met soms een nieuwe post</p>
         </div>
         <main class="container mt-20 mb-10 md:grid md:grid-cols-2 space-y-10 md:space-y-0 md:col-gap-6 md:row-gap-20">
-            <article v-for="post in orderedPosts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="relative h-64 bg-white shadow-lg opacity-0 transform translate-y-32 transition duration-1000 ease-in-out animation-zoom" v-in-viewport.once>
-                <nuxt-link :to="getPermalink(post)" class="relative z-0 w-full h-full bg-gray-800"><img class="w-full h-full object-cover" :src="imgSrc(post)" :alt="title"/></nuxt-link>
-                <nuxt-link :to="getPermalink(post)" class="absolute top-0 left-0 w-full h-full z-0">
+            <article v-for="post in posts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="relative h-64 bg-white shadow-lg opacity-0 transform translate-y-32 transition duration-1000 ease-in-out animation-zoom" v-in-viewport.once>
+                <nuxt-link :to="post.path" class="relative z-0 w-full h-full bg-gray-800"><img class="w-full h-full object-cover" :src="imgSrc(post)" :alt="title"/></nuxt-link>
+                <nuxt-link :to="post.path" class="absolute top-0 left-0 w-full h-full z-0">
                   <div class="absolute top-0 left-0 w-full h-full gradient-black-transparent" style=""></div>
                 </nuxt-link>
-                <nuxt-link :to="getPermalink(post)" class="absolute z-10 left-0 bottom-0 py-4 px-6">
+                <nuxt-link :to="post.path" class="absolute z-10 left-0 bottom-0 py-4 px-6">
                   <h3 class="text-white text-2xl font-display font-black mb-0">{{post.attributes.title}}</h3>
                   <span class="text-sm text-white opacity-75">{{prettyDate(post)}} in {{post.attributes.category}}</span>
                 </nuxt-link>
@@ -40,15 +40,35 @@ Vue.directive('in-viewport', inViewportDirective)
 
 export default {
   async asyncData() {
-    const resolve = require.context("~/content/", true, /\.md$/);
-    const imports = resolve.keys().map(key => {
-      const [, name] = key.match(/\/(.+)\.md$/);
-      return resolve(key);
-    });
+    const path = require('path');
+    const context = await require.context(
+      '~/assets/content/writing',
+      true,
+      /\.md$/
+    );
+    const posts = await context.keys().map((key) => {
+    const pathStr = key.replace('.md', '').replace('./', '');
     return {
-      posts: imports
+      ...context(key),
+      path: `/blog/${path.basename(key, '.md')}`
     };
+    });
+    return { posts: posts.sort(
+      //sort by date in descending order
+      (a, b) => new Date(b.attributes.date) - new Date(a.attributes.date)
+    )};
   },
+
+  // async asyncData() {
+  //   const resolve = require.context("~/content/", true, /\.md$/);
+  //   const imports = resolve.keys().map(key => {
+  //     const [, name] = key.match(/\/(.+)\.md$/);
+  //     return resolve(key);
+  //   });
+  //   return {
+  //     posts: imports
+  //   };
+  // },
   components: {
     Header,
     Footer,
@@ -71,18 +91,18 @@ export default {
       }
     }
   },
-  computed: {
-    orderedPosts: function () {
-      return _.orderBy(this.posts, 'attributes.date', 'desc')
-    }
-  },
+  // computed: {
+  //   orderedPosts: function () {
+  //     return _.orderBy(this.posts, 'attributes.date', 'desc')
+  //   }
+  // },
   methods: {
     imgSrc(post) {
       return require(`~/assets/images/blog/${post.attributes.hero}`)
     },
-    getPermalink(post) {
-        return `${this.prefix}/${post.meta.resourcePath.split('\\').pop().split('/').pop().split('.')[0]}`;
-    },
+    // getPermalink(post) {
+    //     return `${this.prefix}/${post.meta.resourcePath.split('\\').pop().split('/').pop().split('.')[0]}`;
+    // },
     prettyDate(post) {
       var d = new Date(post.attributes.date)
       // return format(d, 'dd/MM/yyyy')

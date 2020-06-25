@@ -1,5 +1,5 @@
 const path = require("path");
-import Mode from 'frontmatter-markdown-loader/mode'
+import FMMode from 'frontmatter-markdown-loader/mode';
 
 var glob = require('glob');
 
@@ -8,7 +8,7 @@ async function getDynamicPaths(urlFilepathTable) {
     ...Object.keys(urlFilepathTable).map(url => {
       var filepathGlob = urlFilepathTable[url];
       return glob
-        .sync(filepathGlob, { cwd: 'content' })
+        .sync(filepathGlob, { cwd: 'assets/content/writing' })
         .map(filepath => `${url}/${path.basename(filepath, '.md')}`);
     })
   );
@@ -79,21 +79,32 @@ export default async () => {
         // add frontmatter-markdown-loader
         config.module.rules.push({
           test: /\.md$/,
-          include: path.resolve(__dirname, "content"),
-          loader: "frontmatter-markdown-loader",
+          include: path.resolve(__dirname, "assets/content/writing"),
+          loader: 'frontmatter-markdown-loader',
           options: {
-            mode: [Mode.VUE_COMPONENT, Mode.META]
+            mode: [FMMode.VUE_COMPONENT],
+            vue: {
+              root: 'markdown-body'
+            }
           }
         });
+        // config.module.rules.push({
+        //   test: /\.md$/,
+        //   include: path.resolve(__dirname, "content"),
+        //   loader: "frontmatter-markdown-loader",
+        //   options: {
+        //     mode: [Mode.VUE_COMPONENT, Mode.META]
+        //   }
+        // });
       }
     },
     sitemap: {
       hostname: 'https://www.sanderjanssen.nl',
     },
   }
-  // generate: {
-  //   routes:  await getDynamicPaths({
-  //     '/posts': 'posts/*.md'
-  //   })
-  // }
+  generate: {
+    routes:  await getDynamicPaths({
+      '/blog': 'blog/*.md'
+    })
+  }
 }

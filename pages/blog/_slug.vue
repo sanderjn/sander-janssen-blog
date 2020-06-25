@@ -28,22 +28,38 @@ import Footer from '~/components/Footer.vue'
 import Skew from '~/components/Skew.vue'
 
 export default {
-  async asyncData({ params }) {
-    try {
-      console.info(params.slug);
-      let post = await import(`~/content/${params.slug}.md`);
-      return {
-        title: post.attributes.title,
-        singlePostComponent: post.vue.component,
-        date: post.attributes.date,
-        excerpt: post.attributes.excerpt,
-        image: require(`~/assets/images/blog/${post.attributes.hero}`),
-      };
-    } catch (err) {
-      console.debug(err);
-      return false;
-    }
+  data() {
+    return {
+      post: null,
+      title: null,
+      description: null
+    };
   },
+  created() {
+    const post = require(`~/assets/content/writing/${this.$route.params.slug}.md`);
+
+    this.title = post.attributes.title;
+    this.singlePostComponent = post.vue.component;
+    this.date = post.attributes.date;
+    this.excerpt = post.attributes.excerpt;
+    this.image = require(`~/assets/images/blog/${post.attributes.hero}`);
+  },
+  // async asyncData({ params }) {
+  //   try {
+  //     console.info(params.slug);
+  //     let post = await import(`~/content/${params.slug}.md`);
+  //     return {
+  //       title: post.attributes.title,
+  //       singlePostComponent: post.vue.component,
+  //       date: post.attributes.date,
+  //       excerpt: post.attributes.excerpt,
+  //       image: require(`~/assets/images/blog/${post.attributes.hero}`),
+  //     };
+  //   } catch (err) {
+  //     console.debug(err);
+  //     return false;
+  //   }
+  // },
   components: {
     Header,
     Footer,
