@@ -14,7 +14,7 @@ module.exports = {
       "./store/**/*.vue",
     ],
     options: {
-      whitelistPatternsChildren: [/^markdown/]
+      whitelistPatternsChildren: ['markdown']
     }
   },
   theme: {
