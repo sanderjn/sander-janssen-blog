@@ -1,14 +1,14 @@
-.frontmatter-markdown {
+.markdown {
 	& a {
 		@apply underline;
 	}
 }
-.frontmatter-markdown, .content {
+.markdown, .content {
 	& blockquote {
 		@apply my-10 mx-2;
 
 		& p {
-			@apply font-serif text-2xl text-center leading-snug;
+			@apply font-serif text-xl text-center leading-snug;
 		}
 	}
 	& img, & iframe {
@@ -58,9 +58,9 @@
 }
 
 @screen md {
-	.frontmatter-markdown {
+	.markdown {
 		& blockquote {
-			@apply text-3xl mx-16;
+			@apply text-2xl mx-16;
 		}
 	}
 }
