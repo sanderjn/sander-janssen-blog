@@ -6,7 +6,7 @@
       "use": "@nuxtjs/now-builder",
       "config": {
         "serverFiles": [
-          "./.nuxt/dist/sitemap-routes.xml"
+          ".nuxt/dist/sitemap-routes.xml"
         ]
       }
     }
