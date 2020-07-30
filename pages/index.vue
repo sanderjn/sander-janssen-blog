@@ -6,30 +6,33 @@
       <div class="content container z-10">
         <h1 class="-ml-4 inline-block px-4 font-display text-4xl lg:text-5xl text-white relative">
           <span class="relative z-10">
-            <span class="-mt-2 mr-4 font-display text-4xl lg:text-5xl animation-appear block lg:inline-block">👋🏻</span>
-            Hoi, ik ben <br class="md:hidden"> Sander Janssen
+            <span class="mr-3 font-display text-4xl lg:text-5xl animation-appear block lg:inline-block">👋🏻</span>
+            Hoi, ik ben <br class="md:hidden">
+            <span class="relative">
+              <span class="relative z-10">Sander Janssen</span>
+              <div class="animation-appear absolute bottom-0 left-0 w-full h-6 bg-brand-secondary z-0"></div>
+            </span>
           </span>
-          <div class="absolute bottom-0 left-0 -mb-1 w-full h-8 bg-brand-secondary z-0 opacity-75"></div>
         </h1>
         <span class="block text-white text-xl lg:text-2xl">Front-end web developer</span>
-        <div class="mt-10 lg:mt-24 text-lg lg:text-xl md:grid md:grid-cols-2 gap-10">
+        <div class="mt-10 lg:mt-24 text-lg md:grid md:grid-cols-2 gap-10">
           <div class="skills text-white">
             <p>Ik kan je helpen met:</p>
             <ul class="space-y-2">
-              <li><span class="relative z-10">Webdesign</span></li>
-              <li><span class="relative z-10">Webdevelopment</span></li>
-              <li><span class="relative z-10">WordPress websites</span></li>
+              <li class="lg:text-xl"><span class="relative z-10">Webdesign</span></li>
+              <li class="lg:text-xl"><span class="relative z-10">Webdevelopment</span></li>
+              <li class="lg:text-xl"><span class="relative z-10">WordPress websites</span></li>
             </ul>
             <p class="mt-10">Maar ook met:</p>
             <ul class="space-y-2">
-              <li><span class="relative z-10">Conversie optimalisatie</span></li>
-              <li><span class="relative z-10">Zoekmachine optimalisatie (SEO)</span></li>
-              <li><span class="relative z-10">Zoekmachine advertenties (SEA)</span></li>
-              <li><span class="relative z-10">Webhosting</span></li>
+              <li class="lg:text-xl"><span class="relative z-10">Conversie optimalisatie</span></li>
+              <li class="lg:text-xl"><span class="relative z-10">Zoekmachine optimalisatie (SEO)</span></li>
+              <li class="lg:text-xl"><span class="relative z-10">Zoekmachine advertenties (SEA)</span></li>
+              <li class="lg:text-xl"><span class="relative z-10">Webhosting</span></li>
             </ul>
           </div>
           <div class="hidden sm:block ml-auto self-center">
-            <Sander class="mb-6 -mr-4 w-full max-w-xs h-auto animation-appear" style="transform:rotate(0deg)"/>
+            <Sander class="mb-6 -mr-4 w-full max-w-xs h-auto text-brand-secondary animation-appear" style="transform:rotate(0deg)"/>
           </div>
           <!-- <SanderTransparant class="hidden lg:block ml-auto -mr-4 max-w-sm h-auto z-0 cursor-pointer" style="transform:rotate(3deg)"/> -->
         </div>
