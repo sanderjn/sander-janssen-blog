@@ -3,11 +3,14 @@
     <Header/>
     <main class="flex-1">
       <article>
-        <section class="relative md:mx-4 lg:mx-8 py-10 md:py-16 bg-brand-primary bg-center bg-cover" style="height:60vh" v-bind:style="{ backgroundImage: 'url(' + image + ')' }">
+        <section class="relative md:mx-4 lg:mx-8 py-10 md:py-16 bg-brand-primary bg-center bg-cover" style="height:60vh; min-height:12rem; max-height:80vw;" v-bind:style="{ backgroundImage: 'url(' + image + ')' }">
           <div class="absolute top-0 left-0 w-full h-full gradient-black-transparent z-0" style=""></div>
           <!-- <Skew /> -->
           <div class="w-full h-full flex items-end">
-            <h1 class="absolute text-center text-4xl lg:text-5xl font-display text-white relative container z-10">{{title}}</h1>
+            <div class="container md:text-center">
+              <span class="text-xs text-white opacity-75">{{prettyDate(date)}} in {{category}}</span>
+              <h1 class="relative text-2xl md:text-3xl xl:text-5xl font-display text-white relative my-0 z-10">{{title}}</h1>
+            </div>
           </div>
         </section>
         <section class="mt-20 mb-10  container max-w-2xl content animation-appear">
@@ -26,6 +29,8 @@
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 import Skew from '~/components/Skew.vue'
+import { format, compareAsc } from 'date-fns'
+import _ from 'lodash'
 
 export default {
   data() {
@@ -42,6 +47,7 @@ export default {
     this.singlePostComponent = post.vue.component;
     this.date = post.attributes.date;
     this.excerpt = post.attributes.excerpt;
+    this.category = post.attributes.category;
     this.image = require(`~/assets/images/blog/${post.attributes.hero}`);
   },
   // async asyncData({ params }) {
@@ -82,5 +88,12 @@ export default {
       }
     }
   },
+  methods: {
+    prettyDate(post) {
+      var d = new Date(this.date)
+      // return format(d, 'dd/MM/yyyy')
+      return format(d, 'dd MMM yyyy')
+    }
+  }
 };
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col">
     <Header/>
-    <div class="flex-1 relative lg:mx-4 xl:mx-8 py-10 md:py-16 gradient-complex animation-gradient">
+    <div class="flex-1 relative lg:mx-4 xl:mx-8 py-10 md:py-16 gradient-complex animation-gradient overflow-hidden">
       <!-- <Skew /> -->
       <div class="fixed w-full text-center bottom-0 pb-2 z-0 text-white text-sm opacity-75">↓ Scroll voor meer</div>
       <div class="relative z-10">
@@ -15,9 +15,9 @@
                 <nuxt-link :to="post.path" class="absolute top-0 left-0 w-full h-full z-0">
                   <div class="absolute top-0 left-0 w-full h-full gradient-black-transparent" style=""></div>
                 </nuxt-link>
-                <nuxt-link :to="post.path" class="absolute z-10 left-0 bottom-0 py-4 px-6">
-                  <h3 class="text-white text-2xl font-display font-black mb-0">{{post.attributes.title}}</h3>
-                  <span class="text-sm text-white opacity-75">{{prettyDate(post)}} in {{post.attributes.category}}</span>
+                <nuxt-link :to="post.path" class="absolute z-10 left-0 bottom-0 py-4 p-4 lg:px-6">
+                  <span class="text-xs text-white opacity-75">{{prettyDate(post)}} in {{post.attributes.category}}</span>
+                  <h3 class="text-white text-2xl font-display font-black my-0">{{post.attributes.title}}</h3>
                 </nuxt-link>
             </article>
         </main>
