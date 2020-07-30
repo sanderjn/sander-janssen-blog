@@ -2,7 +2,7 @@
   <div class="flex flex-col">
     <Header/>
     <div class="flex-1 relative lg:mx-4 xl:mx-8 py-10 md:py-16 gradient-complex animation-gradient">
-      <Skew />
+      <!-- <Skew /> -->
       <div class="fixed w-full text-center bottom-0 pb-2 z-0 text-white text-sm opacity-75">↓ Scroll voor meer</div>
       <div class="relative z-10">
         <div class="container text-white">

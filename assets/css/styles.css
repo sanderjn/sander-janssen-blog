@@ -65,13 +65,12 @@ nav a:hover, nav a.nuxt-link-active {
 		@apply px-4 relative list-none z-10;
 	}
 	& ul li:before {
-		@apply absolute -ml-4 w-full bg-black z-0 transition duration-200;
-		opacity:.1;
+		@apply absolute -ml-4 w-full bg-black z-0 opacity-25 transition duration-200;
 		height:100%;
 		content:'';
 	}
 	& ul li:hover:before{
-		opacity:.3;
+		@apply opacity-50;
 	}
 	& ol {
 		list-style-type: decimal;

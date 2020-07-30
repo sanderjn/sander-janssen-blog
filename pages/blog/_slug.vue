@@ -5,7 +5,7 @@
       <article>
         <section class="relative md:mx-4 lg:mx-8 py-10 md:py-16 bg-brand-primary bg-center bg-cover" style="height:60vh" v-bind:style="{ backgroundImage: 'url(' + image + ')' }">
           <div class="absolute top-0 left-0 w-full h-full gradient-black-transparent z-0" style=""></div>
-          <Skew />
+          <!-- <Skew /> -->
           <div class="w-full h-full flex items-end">
             <h1 class="absolute text-center text-4xl lg:text-5xl font-display text-white relative container z-10">{{title}}</h1>
           </div>

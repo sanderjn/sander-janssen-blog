@@ -4,31 +4,37 @@
     <main class="flex-1 relative lg:mx-4 xl:mx-8 py-10 md:py-16 gradient-complex animation-gradient">
       <!-- <Skew /> -->
       <div class="content container z-10">
-        <h1 class="font-display text-4xl lg:text-5xl text-gray-900"><span class="mr-2 animation-appear block lg:inline-block">👋🏻</span> Hoi, ik ben <br class="md:hidden"> Sander Janssen</h1>
-        <span>Front-end web developer</span>
+        <h1 class="-ml-4 inline-block px-4 font-display text-4xl lg:text-5xl text-white relative">
+          <span class="relative z-10">
+            <span class="-mt-2 mr-4 font-display text-4xl lg:text-5xl animation-appear block lg:inline-block">👋🏻</span>
+            Hoi, ik ben <br class="md:hidden"> Sander Janssen
+          </span>
+          <div class="absolute bottom-0 left-0 -mb-1 w-full h-8 bg-brand-secondary z-0 opacity-75"></div>
+        </h1>
+        <span class="block text-white text-xl lg:text-2xl">Front-end web developer</span>
         <div class="mt-10 lg:mt-24 text-lg lg:text-xl md:grid md:grid-cols-2 gap-10">
-          <div class="skills text-gray-900">
+          <div class="skills text-white">
             <p>Ik kan je helpen met:</p>
             <ul class="space-y-2">
-              <li>Webdesign</li>
-              <li>Webdevelopment</li>
-              <li>WordPress websites</li>
+              <li><span class="relative z-10">Webdesign</span></li>
+              <li><span class="relative z-10">Webdevelopment</span></li>
+              <li><span class="relative z-10">WordPress websites</span></li>
             </ul>
             <p class="mt-10">Maar ook met:</p>
             <ul class="space-y-2">
-              <li>Conversie optimalisatie</li>
-              <li>Zoekmachine optimalisatie (SEO)</li>
-              <li>Zoekmachine advertenties (SEA)</li>
-              <li>Webhosting</li>
+              <li><span class="relative z-10">Conversie optimalisatie</span></li>
+              <li><span class="relative z-10">Zoekmachine optimalisatie (SEO)</span></li>
+              <li><span class="relative z-10">Zoekmachine advertenties (SEA)</span></li>
+              <li><span class="relative z-10">Webhosting</span></li>
             </ul>
           </div>
           <div class="hidden sm:block ml-auto self-center">
-            <!-- <Sander class="mb-6 -mr-4 w-full max-w-xs h-auto animation-appear" style="transform:rotate(0deg)"/> -->
+            <Sander class="mb-6 -mr-4 w-full max-w-xs h-auto animation-appear" style="transform:rotate(0deg)"/>
           </div>
           <!-- <SanderTransparant class="hidden lg:block ml-auto -mr-4 max-w-sm h-auto z-0 cursor-pointer" style="transform:rotate(3deg)"/> -->
         </div>
           <div class="mt-8 inline-block relative">
-            <div class="absolute bg-white w-full h-full z-0 shadow-lg"></div>
+            <div class="absolute bg-white w-full h-full z-0 skew-text shadow-lg"></div>
             <p class="font-display font-black py-1 px-6 mb-0 relative text-xl lg:text-2xl z-10"><span class="md:text-2xl lg:text-3xl">🤝</span> Samenwerken?<br class="md:hidden"> Stuur me <a href="mailto:hello@sanderjanssen.nl" target="_blank" class="text-gray-900 hover:text-brand-secondary transition-colors duration-100 underline">een berichtje</a>!</p>
           </div>
       </div>
