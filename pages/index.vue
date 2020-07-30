@@ -15,7 +15,7 @@
           </span>
         </h1>
         <span class="block text-white text-xl lg:text-2xl">Front-end web developer</span>
-        <div class="mt-10 lg:mt-24 text-lg md:flex md:flex-row-reverse md:space-x-10 md:space-x-reverse">
+        <div class="mt-10 lg:mt-16 text-lg md:flex md:flex-row-reverse md:space-x-10 md:space-x-reverse">
           <div class="md:w-1/2 self-center">
             <Sander class="mb-6 w-48 md:ml-auto md:w-full max-w-xs h-auto text-brand-secondary animation-appear" style="transform:rotate(0deg)"/>
           </div>

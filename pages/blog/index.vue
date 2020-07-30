@@ -9,7 +9,7 @@
           <h1 class="text-4xl lg:text-5xl font-display">Blog</h1>
           <p class="text-lg">Met soms een nieuwe post</p>
         </div>
-        <main class="container mt-20 mb-10 md:grid md:grid-cols-2 space-y-10 md:space-y-0 md:col-gap-6 md:row-gap-20">
+        <main class="container mt-10 lg:mt-16 mb-10 md:grid md:grid-cols-2 space-y-10 md:space-y-0 md:col-gap-6 md:row-gap-20">
             <article v-for="post in posts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="relative h-64 bg-white shadow-lg opacity-0 transform translate-y-32 transition duration-1000 ease-in-out animation-zoom" v-in-viewport.once>
                 <nuxt-link :to="post.path" class="relative z-0 w-full h-full bg-gray-800"><img class="w-full h-full object-cover" :src="imgSrc(post)" :alt="title"/></nuxt-link>
                 <nuxt-link :to="post.path" class="absolute top-0 left-0 w-full h-full z-0">

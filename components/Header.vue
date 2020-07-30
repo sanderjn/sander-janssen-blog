@@ -1,5 +1,5 @@
 <template>
-  <header class="container py-8 flex justify-between items-center">
+  <header class="container py-3 md:py-8 flex justify-between items-center">
     <nuxt-link class="flex items-end space-x-4 text-lg sm:text-xl font-black leading-none" to="/">
       <!-- <logo class="w-8 h-8" /> -->
       <span class="font-display">Sander Janssen</span>
