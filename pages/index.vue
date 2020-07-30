@@ -15,8 +15,11 @@
           </span>
         </h1>
         <span class="block text-white text-xl lg:text-2xl">Front-end web developer</span>
-        <div class="mt-10 lg:mt-24 text-lg md:grid md:grid-cols-2 gap-10">
-          <div class="skills text-white">
+        <div class="mt-10 lg:mt-24 text-lg md:flex md:flex-row-reverse md:space-x-10 md:space-x-reverse">
+          <div class="md:w-1/2 self-center">
+            <Sander class="mb-6 w-48 md:ml-auto md:w-full max-w-xs h-auto text-brand-secondary animation-appear" style="transform:rotate(0deg)"/>
+          </div>
+          <div class="md:w-1/2 skills text-white mt-16 md:mt-0">
             <p>Ik kan je helpen met:</p>
             <ul class="space-y-2">
               <li class="lg:text-xl"><span class="relative z-10">Webdesign</span></li>
@@ -30,9 +33,6 @@
               <li class="lg:text-xl"><span class="relative z-10">Zoekmachine advertenties (SEA)</span></li>
               <li class="lg:text-xl"><span class="relative z-10">Webhosting</span></li>
             </ul>
-          </div>
-          <div class="hidden sm:block ml-auto self-center">
-            <Sander class="mb-6 -mr-4 w-full max-w-xs h-auto text-brand-secondary animation-appear" style="transform:rotate(0deg)"/>
           </div>
           <!-- <SanderTransparant class="hidden lg:block ml-auto -mr-4 max-w-sm h-auto z-0 cursor-pointer" style="transform:rotate(3deg)"/> -->
         </div>
