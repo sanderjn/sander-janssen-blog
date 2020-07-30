@@ -7,10 +7,16 @@ html {
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter Black';
   font-weight: 900;
   src: local('Inter Black'),
   url('~assets/fonts/Inter-Black-slnt=0.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  src: local('Inter SemiBold'),
+  url('~assets/fonts/Inter-SemiBold.ttf') format('ttf');
 }
 
 body {
@@ -42,7 +48,34 @@ p {
   @apply mb-6;
 }
 nav a:hover, nav a.nuxt-link-active {
-	@apply underline;
+	@apply text-brand-secondary;
+}
+
+.skills {
+	& p + ul {
+		margin-top:-1.5rem;
+	}
+	& ul, & ol {
+		margin-bottom:1.5rem;
+	}
+	& ol {
+		padding-left:2.3rem;
+	}
+	& ul li {
+		@apply px-4 relative list-none z-10;
+	}
+	& ul li:before {
+		@apply absolute -ml-4 w-full bg-black z-0 transition duration-200;
+		opacity:.1;
+		height:100%;
+		content:'';
+	}
+	& ul li:hover:before{
+		opacity:.3;
+	}
+	& ol {
+		list-style-type: decimal;
+	}
 }
 
 .container {

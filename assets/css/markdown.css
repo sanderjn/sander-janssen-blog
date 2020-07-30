@@ -3,7 +3,8 @@
 		@apply underline;
 	}
 }
-.markdown, .content {
+
+.markdown {
 	& img, & iframe {
 		@apply mb-4;
 	}

@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"trans",
+				"transition-colors \tTailwind Class"
+			],
+			[
+				"space",
+				"space-x-2 \tTailwind Class"
+			],
+			[
+				"opac",
+				"opacity-75 \tTailwind Class"
+			],
+			[
+				"tras",
+				"translateY()\ttransform"
+			],
+			[
+				"opaci",
+				"opacity-75 \tTailwind Class"
+			],
+			[
+				"translate-y-",
+				"translate-y-32 \tTailwind Class"
+			],
+			[
+				"just",
+				"justify-end \tTailwind Class"
+			],
+			[
 				"ju",
 				"justify-end \tTailwind Class"
 			],
@@ -38,10 +66,6 @@
 			[
 				"transition",
 				"transition-transform \tTailwind Class"
-			],
-			[
-				"opaci",
-				"opacity-50 \tTailwind Class"
 			],
 			[
 				"opacity",
@@ -96,10 +120,6 @@
 				"items-end \tTailwind Class"
 			],
 			[
-				"just",
-				"justify-between \tTailwind Class"
-			],
-			[
 				"max-w",
 				"max-w-3xl \tTailwind Class"
 			],
@@ -126,10 +146,6 @@
 			[
 				"leading",
 				"leading-snug \tTailwind Class"
-			],
-			[
-				"opac",
-				"opacity-0 \tTailwind Class"
 			],
 			[
 				"border-gr",
@@ -498,22 +514,6 @@
 			[
 				"italic",
 				"not-italic \tTailwind Class"
-			],
-			[
-				"font",
-				"font-serif \tTailwind Class"
-			],
-			[
-				"font-sty",
-				"font-style\tproperty"
-			],
-			[
-				"wp_",
-				"wp_enqueue_style"
-			],
-			[
-				"align-",
-				"align-text-top \tTailwind Class"
 			]
 		]
 	},
@@ -523,59 +523,24 @@
 			"file": "assets/css/styles.css",
 			"settings":
 			{
-				"buffer_size": 722,
+				"buffer_size": 1642,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/css/markdown.css",
+			"file": "components/Header.vue",
 			"settings":
 			{
-				"buffer_size": 963,
-				"encoding": "UTF-8",
+				"buffer_size": 1970,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "nuxt.config.js",
+			"file": "pages/blog/index.vue",
 			"settings":
 			{
-				"buffer_size": 2359,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 800,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 1253,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package-lock.json",
-			"settings":
-			{
-				"buffer_size": 479406,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 416,
+				"buffer_size": 4095,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -584,34 +549,16 @@
 			"file": "pages/index.vue",
 			"settings":
 			{
-				"buffer_size": 3559,
+				"buffer_size": 2976,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "pages/blog/index.vue",
+			"file": "assets/css/markdown.css",
 			"settings":
 			{
-				"buffer_size": 3219,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "pages/blog/_slug.vue",
-			"settings":
-			{
-				"buffer_size": 2131,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "components/Skew.vue",
-			"settings":
-			{
-				"buffer_size": 863,
+				"buffer_size": 950,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -673,9 +620,13 @@
 		"/Users/sander/Projects/nuxtblog",
 		"/Users/sander/Projects/nuxtblog/blog",
 		"/Users/sander/Projects/nuxtblog/blog/assets",
+		"/Users/sander/Projects/nuxtblog/blog/assets/content",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css",
+		"/Users/sander/Projects/nuxtblog/blog/assets/fonts",
 		"/Users/sander/Projects/nuxtblog/blog/assets/images",
 		"/Users/sander/Projects/nuxtblog/blog/assets/images/svg",
 		"/Users/sander/Projects/nuxtblog/blog/components",
+		"/Users/sander/Projects/nuxtblog/blog/layouts",
 		"/Users/sander/Projects/nuxtblog/blog/pages",
 		"/Users/sander/Projects/nuxtblog/blog/pages/blog",
 		"/Users/sander/Projects/nuxtblog/blog/plugins",
@@ -685,37 +636,42 @@
 	],
 	"file_history":
 	[
-		"/Users/sander/Projects/nuxtblog/blog/assets/images/sander-square.svg",
-		"/Users/sander/Projects/nuxtblog/blog/assets/images/sander.svg",
+		"/Users/sander/Projects/nuxtblog/blog/pages/blog/_slug.vue",
+		"/Users/sander/Projects/nuxtblog/blog/now.json",
 		"/Users/sander/Projects/nuxtblog/blog/tailwind.config.js",
-		"/Users/sander/Projects/nuxtblog/blog/package.json",
+		"/Users/sander/Projects/nuxtblog/blog/layouts/error.vue",
+		"/Users/sander/Projects/nuxtblog/blog/nuxt.config.js",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/tailwind.css",
+		"/Users/sander/Projects/nuxtblog/blog/pages/blog/index.vue",
+		"/Users/sander/Projects/nuxtblog/blog/pages/index.vue",
+		"/Users/sander/Projects/nuxtblog/blog/assets/fonts",
 		"/Users/sander/Projects/nuxtblog/blog/assets/css/gradients.css",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/transitions.css",
 		"/Users/sander/Projects/nuxtblog/blog/components/Header.vue",
+		"/Users/sander/Projects/nuxtblog/blog/components/Skew.vue",
+		"/Users/sander/Projects/nuxtblog/blog/content/7-sloten-tegelijk.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/caribische-kust.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/ecuador.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/geleerd-medellin.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/guatape.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/hello-world.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/hij-ging-niet.md",
+		"/Users/sander/Projects/nuxtblog/blog/content/leren-mediteren.md",
 		"/Users/sander/Projects/nuxtblog/blog/content/nuxt-tailwindcss-blog.md",
 		"/Users/sander/Projects/nuxtblog/blog/content/slapen-is-voor-apen.md",
 		"/Users/sander/Projects/nuxtblog/blog/content/surfen-in-peru.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/leren-mediteren.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/hij-ging-niet.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/hello-world.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/guatape.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/geleerd-medellin.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/ecuador.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/caribische-kust.md",
-		"/Users/sander/Projects/nuxtblog/blog/content/7-sloten-tegelijk.md",
 		"/Users/sander/Projects/nuxtblog/blog/content/werken-voor-en-aan-mezelf.md",
+		"/Users/sander/Projects/nuxtblog/blog/README.md",
+		"/Users/sander/Projects/nuxtblog/blog/package-lock.json",
+		"/Users/sander/Projects/nuxtblog/blog/package.json",
 		"/Users/sander/Projects/nuxtblog/blog/assets/css/markdown.css",
-		"/Users/sander/Projects/nuxtblog/blog/assets/css/transitions.css",
-		"/Users/sander/Projects/nuxtblog/blog/pages/blog/_slug.vue",
+		"/Users/sander/Projects/nuxtblog/blog/assets/images/sander-square.svg",
+		"/Users/sander/Projects/nuxtblog/blog/assets/images/sander.svg",
 		"/Users/sander/Projects/nuxtblog-oud/blog/pages/blog/index.vue",
-		"/Users/sander/Projects/nuxtblog/blog/pages/blog/index.vue",
 		"/Users/sander/Projects/nuxtblog/blog/components/Footer.vue",
-		"/Users/sander/Projects/nuxtblog/blog/pages/index.vue",
-		"/Users/sander/Projects/nuxtblog/blog/components/Skew.vue",
 		"/Users/sander/Projects/nuxtblog/blog/layouts/default.vue",
 		"/Users/sander/Projects/nuxtblog/blog/assets/css/styles.css",
-		"/Users/sander/Projects/nuxtblog/blog/assets/css/tailwind.css",
 		"/Users/sander/Projects/nuxtblog/blog/content/blog-twee.md",
-		"/Users/sander/Projects/nuxtblog/blog/nuxt.config.js",
 		"/Users/sander/Projects/nuxtblog/blog/components/Logo.vue",
 		"/Users/sander/Projects/nuxtblog/blog/assets/images/blog",
 		"/Users/sander/Local Sites/zweedse-pellets/app/public/wp-content/themes/gp-tailwind/_generator/tailwind.config.js",
@@ -807,12 +763,7 @@
 		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bar-chart.svg",
 		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/battery-charging.svg",
 		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/battery.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bell-off.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bell.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bluetooth.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bold.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/book-open.svg",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/book.svg"
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bell-off.svg"
 	],
 	"find":
 	{
@@ -830,6 +781,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hover",
+			"li",
+			"ul",
+			"writing",
+			"getPermalink(post)",
+			"resource",
+			"content",
+			"loader",
+			",",
+			":",
+			"asyncdata",
+			"data",
+			"gradient",
+			"sitemap",
+			"host",
 			"build",
 			"sitemap",
 			"build",
@@ -886,7 +852,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -895,15 +861,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 722,
+						"buffer_size": 1642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								150,
-								150
+								587,
+								587
 							]
 						],
 						"settings":
@@ -912,104 +878,33 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tabs_extra_last_activated": 1592910931.18,
+							"tabs_extra_last_activated": 1596102994.04,
 							"tabs_extra_last_activated_sheet_index": 0,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/css/markdown.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 963,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								658,
-								658
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tabs_extra_last_activated": 1592910931.83,
-							"tabs_extra_last_activated_sheet_index": 1,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "nuxt.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2359,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								432,
-								458
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"tabs_extra_last_activated": 1592919217.99,
-							"tabs_extra_last_activated_sheet_index": 2,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 220.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "package.json",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "components/Header.vue",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 800,
+						"buffer_size": 1970,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								290,
-								290
+								347,
+								347
 							]
 						],
 						"settings":
@@ -1017,10 +912,10 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax",
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
 							"tab_size": 2,
-							"tabs_extra_last_activated": 1592911072.22,
-							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_last_activated": 1596037658.91,
+							"tabs_extra_last_activated_sheet_index": 1,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
 						},
@@ -1032,20 +927,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": ".gitignore",
-					"semi_transient": true,
+					"buffer": 2,
+					"file": "pages/blog/index.vue",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1253,
+						"buffer_size": 4095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1046,
-								1051
+								3455,
+								3457
 							]
 						],
 						"settings":
@@ -1053,10 +948,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax",
-							"tabs_extra_last_activated": 1592898973.47,
-							"tabs_extra_last_activated_sheet_index": 4,
-							"tabs_extra_spawned": true
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1596037278.52,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"tabs_extra_spawned": true,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1066,90 +963,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "package-lock.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 479406,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax",
-							"tab_size": 2,
-							"tabs_extra_last_activated": 1592898242.34,
-							"tabs_extra_last_activated_sheet_index": 4,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 416,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								80
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tabs_extra_last_activated": 1592896823.15,
-							"tabs_extra_last_activated_sheet_index": 3,
-							"tabs_extra_spawned": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
+					"buffer": 3,
 					"file": "pages/index.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3559,
+						"buffer_size": 2976,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1552,
-								1552
+								1912,
+								1912
 							]
 						],
 						"settings":
@@ -1159,8 +986,8 @@
 							"synced": false,
 							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
 							"tab_size": 2,
-							"tabs_extra_last_activated": 1592897632.2,
-							"tabs_extra_last_activated_sheet_index": 6,
+							"tabs_extra_last_activated": 1596037374.24,
+							"tabs_extra_last_activated_sheet_index": 3,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
 						},
@@ -1168,24 +995,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "pages/blog/index.vue",
+					"buffer": 4,
+					"file": "assets/css/markdown.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3219,
+						"buffer_size": 950,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								46,
-								50
+								643,
+								643
 							]
 						],
 						"settings":
@@ -1193,90 +1020,17 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
-							"tab_size": 2,
-							"tabs_extra_last_activated": 1592897633.34,
-							"tabs_extra_last_activated_sheet_index": 7,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tabs_extra_last_activated": 1596037373.42,
+							"tabs_extra_last_activated_sheet_index": 4,
 							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "pages/blog/_slug.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2131,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2084,
-								2088
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
-							"tab_size": 2,
-							"tabs_extra_last_activated": 1592895776.85,
-							"tabs_extra_last_activated_sheet_index": 6,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "components/Skew.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 863,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								383,
-								383
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
-							"tab_size": 2,
-							"tabs_extra_last_activated": 1592895777.21,
-							"tabs_extra_last_activated_sheet_index": 7,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
