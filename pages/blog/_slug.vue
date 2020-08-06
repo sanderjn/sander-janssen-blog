@@ -1,7 +1,6 @@
 <template>
-  <div class="flex flex-col">
-    <Header/>
-    <main class="flex-1">
+  <main class="flex flex-col">
+    <div class="flex-1">
       <article>
         <section class="relative md:mx-4 lg:mx-8 py-10 md:py-16 bg-brand-primary bg-center bg-cover" style="height:60vh; min-height:12rem; max-height:80vw;" v-bind:style="{ backgroundImage: 'url(' + image + ')' }">
           <div class="absolute top-0 left-0 w-full h-full gradient-black-transparent z-0" style=""></div>
@@ -21,18 +20,18 @@
           </nuxt-link>
         </section>
       </article>
-    </main>
-    <Footer/>
-  </div>
+    </div>
+  </main>
 </template>
+
 <script>
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 import Skew from '~/components/Skew.vue'
 import { format, compareAsc } from 'date-fns'
 import _ from 'lodash'
-
 export default {
+  layout: 'blog',
   data() {
     return {
       post: null,
@@ -42,7 +41,6 @@ export default {
   },
   created() {
     const post = require(`~/assets/content/writing/${this.$route.params.slug}.md`);
-
     this.title = post.attributes.title;
     this.singlePostComponent = post.vue.component;
     this.date = post.attributes.date;

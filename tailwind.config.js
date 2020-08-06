@@ -15,7 +15,7 @@ module.exports = {
       "./store/**/*.vue",
     ],
     options: {
-      whitelist: ['markdown']
+      whitelist: ['markdown', 'blockquote']
     }
   },
   theme: {
