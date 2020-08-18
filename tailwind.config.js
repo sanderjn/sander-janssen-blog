@@ -29,7 +29,7 @@ module.exports = {
   		},
   		fontFamily: {
   			// 'display': 'Peachy Keen JF'
-        'display': 'Inter'
+        'display': 'Inter, Helvetica, Arial Black'
   		}
   	}
   },
