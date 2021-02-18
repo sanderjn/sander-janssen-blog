@@ -60,6 +60,12 @@ export default {
           url: 'drumlindistillery.com',
         },
         { 
+          title: 'Else Schaaij',
+          description: 'WordPress website for a flute teacher.',
+          image: 'elseschaaij.jpg',
+          url: 'elseschaaij.nl',
+        },
+        { 
           title: 'Relajate Lobitos',
           description: 'WordPress website I did for a hostel, restaurant & surfshop in Peru while traveling South America.',
           image: 'relajate-home.jpg',
