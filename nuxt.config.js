@@ -2,7 +2,6 @@ const path = require("path");
 import FMMode from 'frontmatter-markdown-loader/mode';
 
 export default {
-  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -58,7 +57,6 @@ export default {
     */
     postcss: {
       plugins: {
-        'postcss-import': true,
         'autoprefixer': true,
         'postcss-preset-env': {
           stage: 1,
@@ -78,14 +76,6 @@ export default {
           }
         }
       });
-      // config.module.rules.push({
-      //   test: /\.md$/,
-      //   include: path.resolve(__dirname, "content"),
-      //   loader: "frontmatter-markdown-loader",
-      //   options: {
-      //     mode: [Mode.VUE_COMPONENT, Mode.META]
-      //   }
-      // });
     }
   },
   sitemap: {

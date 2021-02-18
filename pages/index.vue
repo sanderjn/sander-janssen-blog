@@ -1,58 +1,49 @@
 <template>
   <div>
     <!-- <Skew /> -->
-    <div class="content container z-10">
-      <h1 class="-ml-4 inline-block px-4 font-display text-4xl lg:text-5xl text-white relative">
-        <span class="relative z-10">
-          <span class="mr-3 font-display text-4xl lg:text-5xl animation-appear block lg:inline-block">👋🏻</span>
-          Hoi, ik ben <br class="md:hidden">
-          <span class="relative">
-            <span class="relative z-10">Sander Janssen</span>
-            <div class="animation-appear absolute bottom-0 left-0 w-full h-6 bg-brand-secondary z-0"></div>
-          </span>
-        </span>
-      </h1>
-      <span class="block text-white text-xl lg:text-2xl">Front-end web developer</span>
-      <div class="mt-10 lg:mt-16 text-lg md:flex md:flex-row-reverse md:space-x-10 md:space-x-reverse">
-        <div class="md:w-1/2 self-center">
-          <Sander class="mb-6 w-48 md:ml-auto md:w-full max-w-xs h-auto text-brand-secondary animation-appear" style="transform:rotate(0deg)"/>
-        </div>
-        <div class="md:w-1/2 skills text-white mt-16 md:mt-0">
-          <p>Ik kan je helpen met:</p>
-          <ul class="space-y-2">
-            <li class="lg:text-xl"><span class="relative z-10">Webdesign</span></li>
-            <li class="lg:text-xl"><span class="relative z-10">Webdevelopment</span></li>
-            <li class="lg:text-xl"><span class="relative z-10">WordPress websites</span></li>
-          </ul>
-          <p class="mt-10">Maar ook met:</p>
-          <ul class="space-y-2">
-            <li class="lg:text-xl"><span class="relative z-10">Conversie optimalisatie</span></li>
-            <li class="lg:text-xl"><span class="relative z-10">Zoekmachine optimalisatie (SEO)</span></li>
-            <li class="lg:text-xl"><span class="relative z-10">Zoekmachine advertenties (SEA)</span></li>
-            <li class="lg:text-xl"><span class="relative z-10">Webhosting</span></li>
-          </ul>
-        </div>
-        <!-- <SanderTransparant class="hidden lg:block ml-auto -mr-4 max-w-sm h-auto z-0 cursor-pointer" style="transform:rotate(3deg)"/> -->
+    <div class="container z-10 max-w-3xl content">
+      <div>
+        <h1 class="inline-block px-4 -ml-4 text-2xl text-gray-800 font-display lg:text-3xl">
+            👋🏻 Hi, I'm <br class="md:hidden">
+              <span class="inline-block px-1 transform bg-white rounded-sm -rotate-1"><span class="inline-block transform rotate-1">Sander Janssen</span></span>
+        </h1>
+        <p class="block mt-2 font-mono text-xl text-primary-500">Front-end web developer <br class="md:hidden"><span class="text-gray-400">marketing background</span></p>
       </div>
-        <div class="mt-8 inline-block relative">
-          <div class="absolute bg-white w-full h-full z-0 skew-text shadow-lg"></div>
-          <p class="font-display font-black py-1 px-6 mb-0 relative text-xl lg:text-2xl z-10"><span class="md:text-2xl lg:text-3xl">🤝</span> Samenwerken?<br class="md:hidden"> Stuur me <a href="mailto:hello@sanderjanssen.nl" target="_blank" class="text-gray-900 hover:text-brand-secondary transition-colors duration-100 underline">een berichtje</a>!</p>
+      <div class="mt-10">
+        <div class="prose">
+          <p>I'm doing freelance work and building smaller personal projects on the side, some of which can be found on <svg class="inline w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+            <a href="https://github.com/sanderjn" target="_blank" class="hover:text-primary-500">GitHub</a>. I'm currently open for new projects, so if you're interested in working with me, <a href="mailto:hello@sanderjanssen.nl" class="hover:text-primary-500">shoot me a message</a>.</p>
+          <h3>Work with me on</h3>
+          <ul>
+            <li v-for="skill in skills">{{ skill }}</li>
+          </ul>
         </div>
+        <WorkBanner />
+        <div class="mt-10 prose">
+          <h3>More about me</h3>
+          <p>I love music (disco/house/electronic) and I spend most of my free time looking for new music to use in my DJ sets, which you can check out on <svg class="inline w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+          <a href="https://soundcloud.com/komdjensen" target="_blank" class="hover:text-primary-500">SoundCloud</a>. Also I'm low-key producing electronic music, but don't dare to share my creations (yet).</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
-import Footer from '~/components/Footer.vue'
-import Skew from '~/components/Skew.vue'
-import Sander from '~/assets/images/sander-square.svg';
+import WorkBanner from '~/components/WorkBanner.vue'
+import Sander from '~/assets/images/sander.svg';
 import SanderTransparant from '~/assets/images/sander-transparant.svg';
-import Plant from '~/assets/images/plant.svg';
 export default {
   data() {
     return {
-      title: 'Webdesign & webdevelopment - Sander Janssen'
+      title: 'Webdesign & webdevelopment - Sander Janssen',
+      skills: [
+        'Front-end web development', 'WordPress development', 'Conversion Rate Optimization'
+      ]
     }
   },
   head () {
@@ -67,12 +58,9 @@ export default {
     }
   },
   components: {
-    Header,
-    Footer,
-    Skew,
+    WorkBanner,
     Sander,
     SanderTransparant,
-    Plant,
   },
 }
 </script>

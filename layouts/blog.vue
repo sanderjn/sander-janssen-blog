@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col bg-gray-50">
   	<Header />
   		<nuxt class="min-h-screen" />
     <Footer />

@@ -4,6 +4,8 @@
 ** Docs: https://tailwindcss.com/docs/configuration
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: {
     content: [
@@ -14,25 +16,56 @@ module.exports = {
       "./static/**/*.vue",
       "./store/**/*.vue",
     ],
-    options: {
-      whitelist: ['markdown', 'blockquote']
-    }
+    options: {}
   },
   theme: {
   	extend: {
   		colors: {
-  			'brand-primary': '#007adf',
-  			// 'brand-secondary': '#00ecbc', iets te fel en licht
-        'brand-secondary': '#09dbb0',
-        'brand-secondary-dark': '#08ba96',
-        'brand-secondary-50': 'rgba(9,219,176,.5)',
+  			'primary': colors.teal,
+        'secondary': colors.cyan,
+        'tertiary': colors.purple,
   		},
   		fontFamily: {
-  			// 'display': 'Peachy Keen JF'
         'display': 'Inter, Helvetica, Arial Black'
-  		}
-  	}
+      },
+      transitionDuration: {
+        DEFAULT: '150ms',
+      },
+      transitionTimingFunction: {
+        DEFAULT: 'cubic-bezier(0.4, 0, 0.2, 1)',
+      },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.gray.700'),
+            // color: theme('colors.primary.800'),
+            h1: {
+              fontWeight: '600',
+            },
+            h2: {
+              fontWeight: '600',
+            },
+            h3: {
+              fontWeight: '600',
+            },
+            a: {
+              color: theme('colors.gray.800'),
+              fontWeight: '700',
+              '&:hover': {
+                color: theme('colors.primary.500'),
+              },
+            },
+            'ul > li::before': {
+              backgroundColor: theme('colors.primary.300'),
+            },
+          },
+        },
+      })
+    },
   },
   variants: {},
-  plugins: []
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+  ]
 }

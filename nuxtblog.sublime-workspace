@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"roun",
+				"rounded-full \tTailwind Class"
+			],
+			[
 				"opac",
 				"opacity-50 \tTailwind Class"
 			],
@@ -510,20 +514,16 @@
 			[
 				"shad-",
 				"shadow-md \tTailwind Class"
-			],
-			[
-				"italic",
-				"not-italic \tTailwind Class"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "pages/index.vue",
+			"file": "layouts/default.vue",
 			"settings":
 			{
-				"buffer_size": 3584,
+				"buffer_size": 406,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,7 +532,7 @@
 			"file": "pages/blog/index.vue",
 			"settings":
 			{
-				"buffer_size": 3914,
+				"buffer_size": 3860,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -541,25 +541,16 @@
 			"file": "pages/blog/_slug.vue",
 			"settings":
 			{
-				"buffer_size": 3627,
+				"buffer_size": 3801,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "nuxt.config.js",
+			"file": "pages/index.vue",
 			"settings":
 			{
-				"buffer_size": 2635,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "layouts/default.vue",
-			"settings":
-			{
-				"buffer_size": 414,
+				"buffer_size": 3519,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -583,10 +574,19 @@
 			}
 		},
 		{
-			"file": "assets/css/transitions.css",
+			"file": "assets/css/styles.css",
 			"settings":
 			{
-				"buffer_size": 1130,
+				"buffer_size": 1873,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/gradients.css",
+			"settings":
+			{
+				"buffer_size": 763,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -595,9 +595,20 @@
 			"file": "tailwind.config.js",
 			"settings":
 			{
-				"buffer_size": 878,
+				"buffer_size": 1044,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nEmmet\n-----\n\n  🎉 Emmet just updated to v2.0.0! 🎉\n  \n  The Emmet plugin just got better:\n  \n  * Features completely new developer experience: displays interactive abbreviation preview and plays nice with Tab key and native Sublime Text snippets.\n  * New version is many times faster that previous one.\n  * Improved JSX and CSS support.\n  * Rewritten from scratch and doesn’t use heavy PyV8 binary anymore.\n  \n  Read more about new version: https://teletype.in/@chikuyonok/emmet2-sublime-text\n  \n  And if you like Emmet, please support it’s further development 😇:\n  https://github.com/sponsors/emmetio\n",
+			"settings":
+			{
+				"buffer_size": 651,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -656,7 +667,6 @@
 	[
 		"/Users/sander/Projects/nuxtblog",
 		"/Users/sander/Projects/nuxtblog/blog",
-		"/Users/sander/Projects/nuxtblog/blog/.nuxt",
 		"/Users/sander/Projects/nuxtblog/blog/assets",
 		"/Users/sander/Projects/nuxtblog/blog/assets/content",
 		"/Users/sander/Projects/nuxtblog/blog/assets/content/writing",
@@ -672,13 +682,15 @@
 	],
 	"file_history":
 	[
-		"/Users/sander/Projects/nuxtblog/blog/layouts/default.vue",
-		"/Users/sander/Projects/nuxtblog/blog/nuxt.config.js",
-		"/Users/sander/Projects/nuxtblog/blog/.nuxt/router.js",
-		"/Users/sander/Projects/nuxtblog/blog/pages/blog/index.vue",
 		"/Users/sander/Projects/nuxtblog/blog/assets/css/transitions.css",
-		"/Users/sander/Projects/nuxtblog/blog/assets/css/styles.css",
 		"/Users/sander/Projects/nuxtblog/blog/pages/blog/_slug.vue",
+		"/Users/sander/Projects/nuxtblog/blog/pages/blog/index.vue",
+		"/Users/sander/Projects/nuxtblog/blog/pages/index.vue",
+		"/Users/sander/Projects/nuxtblog/blog/nuxt.config.js",
+		"/private/var/folders/5m/n0f_pstn5qx7mln45h6rtbh40000gn/T/c59c3ac7-13ee-451e-b3a5-810cca89031b/wp-config.php",
+		"/Users/sander/Projects/nuxtblog/blog/layouts/default.vue",
+		"/Users/sander/Projects/nuxtblog/blog/.nuxt/router.js",
+		"/Users/sander/Projects/nuxtblog/blog/assets/css/styles.css",
 		"/Users/sander/Projects/nuxtblog/blog/components/Header.vue",
 		"/Users/sander/Projects/nuxtblog/blog/components/Footer.vue",
 		"/Users/sander/Projects/nuxtblog/blog/now.json",
@@ -686,7 +698,6 @@
 		"/Users/sander/Projects/nuxtblog/blog/assets/images/sander-square.svg",
 		"/Users/sander/Projects/nuxtblog/blog/.nuxt/dist/sitemap-routes.json",
 		"/Users/sander/Projects/nuxtblog/blog/assets/css/markdown.css",
-		"/Users/sander/Projects/nuxtblog/blog/pages/index.vue",
 		"/Users/sander/Projects/nuxtblog/blog/dist/sitemap.xml",
 		"/Users/sander/Projects/nuxtblog/blog/tailwind.config.js",
 		"/Users/sander/Projects/nuxtblog/blog/layouts/error.vue",
@@ -798,8 +809,7 @@
 		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/functions.php",
 		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/public/build/tailwind.css",
 		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/style.css",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/inc/customizer.php",
-		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/icons/feather/bar-chart.svg"
+		"/Users/sander/Local Sites/sj-underscore/app/public/wp-content/themes/sj-theme/inc/customizer.php"
 	],
 	"find":
 	{
@@ -817,6 +827,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"opacity-0 transform translate-y-32 transition duration-1000 ease-in-out",
+			"opacity",
+			"hidden",
+			"inter",
+			"gradient",
+			"inter",
+			"Black",
 			"page-",
 			"loading",
 			"mounted",
@@ -913,24 +930,24 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "pages/index.vue",
+					"file": "layouts/default.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3584,
+						"buffer_size": 406,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3050,
-								3050
+								38,
+								38
 							]
 						],
 						"settings":
@@ -940,7 +957,7 @@
 							"synced": false,
 							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
 							"tab_size": 2,
-							"tabs_extra_last_activated": 1596732573.76,
+							"tabs_extra_last_activated": 1602588612.98,
 							"tabs_extra_last_activated_sheet_index": 0,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
@@ -949,7 +966,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -958,15 +975,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3914,
+						"buffer_size": 3860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1714,
-								1714
+								1616,
+								1616
 							]
 						],
 						"settings":
@@ -976,16 +993,15 @@
 							"synced": false,
 							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
 							"tab_size": 2,
-							"tabs_extra_last_activated": 1596732582.34,
+							"tabs_extra_last_activated": 1602588781.54,
 							"tabs_extra_last_activated_sheet_index": 1,
-							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -994,15 +1010,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3627,
+						"buffer_size": 3801,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1753,
-								1753
+								2002,
+								2002
 							]
 						],
 						"settings":
@@ -1012,9 +1028,8 @@
 							"synced": false,
 							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
 							"tab_size": 2,
-							"tabs_extra_last_activated": 1596732832.5,
+							"tabs_extra_last_activated": 1602589630.43,
 							"tabs_extra_last_activated_sheet_index": 2,
-							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1026,55 +1041,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "nuxt.config.js",
+					"file": "pages/index.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2635,
+						"buffer_size": 3519,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								733,
-								733
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"tabs_extra_last_activated": 1596732690.5,
-							"tabs_extra_last_activated_sheet_index": 3,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "layouts/default.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 414,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								413,
-								414
+								2896,
+								2896
 							]
 						],
 						"settings":
@@ -1083,19 +1062,20 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
-							"tabs_extra_last_activated": 1596732704.65,
-							"tabs_extra_last_activated_sheet_index": 4,
-							"tabs_extra_spawned": true
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1606491050.29,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 283.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "layouts/blog.vue",
 					"semi_transient": false,
 					"settings":
@@ -1119,8 +1099,8 @@
 							"synced": false,
 							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
 							"tab_size": 2,
-							"tabs_extra_last_activated": 1596732768.01,
-							"tabs_extra_last_activated_sheet_index": 5,
+							"tabs_extra_last_activated": 1602588473.53,
+							"tabs_extra_last_activated_sheet_index": 1,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
 						},
@@ -1128,11 +1108,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "components/Header.vue",
 					"semi_transient": false,
 					"settings":
@@ -1155,10 +1135,77 @@
 							"synced": false,
 							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
 							"tab_size": 2,
-							"tabs_extra_last_activated": 1596728514.75,
-							"tabs_extra_last_activated_sheet_index": 1,
+							"tabs_extra_last_activated": 1602588474.01,
+							"tabs_extra_last_activated_sheet_index": 2,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								600,
+								600
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tabs_extra_last_activated": 1602588472.23,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"tabs_extra_spawned": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/css/gradients.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								761,
+								761
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tabs_extra_last_activated": 1602588214.37,
+							"tabs_extra_last_activated_sheet_index": 5
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1168,56 +1215,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "assets/css/transitions.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1130,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1043,
-								1043
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"tabs_extra_last_activated": 1597070224.07,
-							"tabs_extra_last_activated_sheet_index": 7,
-							"tabs_extra_spawned": true,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 37.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
 					"buffer": 8,
 					"file": "tailwind.config.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 878,
+						"buffer_size": 1044,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								689,
-								689
+								902,
+								902
 							]
 						],
 						"settings":
@@ -1227,8 +1238,8 @@
 							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
-							"tabs_extra_last_activated": 1596732319.08,
-							"tabs_extra_last_activated_sheet_index": 8,
+							"tabs_extra_last_activated": 1602588427.97,
+							"tabs_extra_last_activated_sheet_index": 5,
 							"tabs_extra_spawned": true,
 							"translate_tabs_to_spaces": true
 						},
@@ -1237,6 +1248,42 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								651,
+								651
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "/private/var/folders/5m/n0f_pstn5qx7mln45h6rtbh40000gn/T/c59c3ac7-13ee-451e-b3a5-810cca89031b",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"tabs_extra_last_activated": 1598960013.96,
+							"tabs_extra_last_activated_sheet_index": 12,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]

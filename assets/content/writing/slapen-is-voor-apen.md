@@ -66,6 +66,6 @@ Alcohol daarentegen helpt wel om sneller in slaap te komen. Maar ook hierbij gel
 
 Als je dit allemaal hebt uitgelezen, weet je nu hopelijk een stuk meer over het belang van voldoende slaap. Zoals Mathew Walker in de Joe Rogan podcast zegt:
 
-> “Sleep is the greatest legal performance enhancing drug that most people are probably neglecting”
+> Sleep is the greatest legal performance enhancing drug that most people are probably neglecting
 
 Dus ga slapen. Lang en goed. Maak er een prioriteit van. Slapen is niet voor apen, slapen is voor slimme, verstandige, gezonde mensen. Trusten!
