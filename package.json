@@ -16,6 +16,7 @@
     "circletype": "^2.3.0",
     "date-fns": "^2.21.3",
     "frontmatter-markdown-loader": "^3.6.2",
+    "fsevents": "^2.3.2",
     "lodash": "^4.17.20",
     "nuxt": "^2.2.0",
     "nuxt-svg-loader": "^1.2.0",
