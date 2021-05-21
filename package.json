@@ -20,13 +20,13 @@
     "lodash": "^4.17.20",
     "nuxt": "^2.2.0",
     "nuxt-svg-loader": "^1.2.0",
+    "postcss": "^8.3.0",
     "postcss-cli": "^8.3.1",
     "postcss-preset-env": "^6.7.0",
     "vue-in-viewport-directive": "^2.0.2"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.1.2",
-    "postcss-loader": "~3.0.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
+    "postcss-loader": "~3.0.0"
   }
 }
