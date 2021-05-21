@@ -15,6 +15,7 @@
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
     "circletype": "^2.3.0",
+    "create-nuxt-app": "^3.6.0",
     "date-fns": "^2.21.3",
     "frontmatter-markdown-loader": "^3.6.2",
     "lodash": "^4.17.20",
@@ -22,13 +23,13 @@
     "nuxt-svg-loader": "^1.2.0",
     "postcss": "^8.3.0",
     "postcss-cli": "^8.3.1",
-    "postcss-preset-env": "^5.3.0",
+    "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^2.1.2",
     "vue-in-viewport-directive": "^2.0.2"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^3.4.3",
-    "postcss-loader": "^5.3.0"
+    "@nuxtjs/tailwindcss": "^4.1.2",
+    "postcss-loader": "~3.0.0"
   },
   "optionalDependencies": {
     "fsevents": "^2.3.2"
