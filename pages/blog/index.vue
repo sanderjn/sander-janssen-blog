@@ -8,8 +8,8 @@
         <p>Sorry, 🇳🇱 Dutch only</p>
       </div>
       <div class="mt-10 space-y-8 ">
-          <article v-for="post in posts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="relative w-full h-64 bg-gray-900 shadow-lg animation-zoom rounded" v-in-viewport.once>
-              <nuxt-link :to="post.path" class="relative z-0 w-full h-full bg-gray-800"><img class="object-cover w-full h-full" :src="imgSrc(post)" :alt="title"/></nuxt-link>
+          <article v-for="post in posts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="relative w-full h-64 bg-gray-900 shadow-lg rounded overflow-hidden group" v-in-viewport.once>
+              <nuxt-link :to="post.path" class="relative z-0 w-full h-full bg-gray-800"><img class="object-cover w-full h-full transform transition-transform group-hover:scale-110" :src="imgSrc(post)" :alt="title"/></nuxt-link>
               <nuxt-link :to="post.path" class="absolute top-0 left-0 z-0 w-full h-full">
                 <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-black" style=""></div>
               </nuxt-link>
