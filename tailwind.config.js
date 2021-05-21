@@ -13,7 +13,7 @@ module.exports = {
     content: [
       "./pages/**/*.vue",
       "./layouts/**/*.vue",
-      "./components/**/*.vue", 
+      "./components/**/*.vue",
       "./plugins/**/*.vue",
       "./static/**/*.vue",
       "./store/**/*.vue",

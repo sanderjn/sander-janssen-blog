@@ -57,6 +57,7 @@ export default {
     */
     postcss: {
       plugins: {
+        'autoprefixer': true,
       }
     },
     extend(config, ctx) {
