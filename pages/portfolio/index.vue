@@ -70,7 +70,6 @@ export default {
           image: 'drumlin-distillery.jpg',
           url: 'drumlindistillery.com',
         },
-<<<<<<< HEAD
         {
           title: 'Else Schaaij',
           categories: 'Web design & development',
@@ -79,9 +78,6 @@ export default {
           url: 'elseschaaij.nl',
         },
         {
-=======
-        { 
->>>>>>> parent of 630a708 (Added Else to portfolio)
           title: 'Relajate Lobitos',
           categories: 'Web design & development',
           description: 'WordPress website I did for a hostel, restaurant & surfshop in Peru while traveling South America.',
