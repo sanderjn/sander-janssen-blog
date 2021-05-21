@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+id_rsa.pub
+id_rsa.pub.pub
