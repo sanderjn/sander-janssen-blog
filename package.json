@@ -28,9 +28,11 @@
     "postcss-nested": "^5.0.5",
     "postcss-preset-env": "^6.7.0",
     "resolve-url": "^0.2.1",
+    "tailwind": "^4.0.0",
     "tailwindcss": "^2.1.2",
     "urix": "^0.1.0",
-    "vue-in-viewport-directive": "^2.0.2"
+    "vue-in-viewport-directive": "^2.0.2",
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.1.2",
