@@ -5,7 +5,7 @@
     <div class="container max-w-3xl">
       <div class="prose">
         <h1>Portfolio</h1>
-        <p>Some recent work I've done with my clients</p>
+        <p>Some recent work</p>
       </div>
       <div class="mt-10 space-y-16 ">
         <div v-for="portfolioItem in portfolioItems" class="bg-white md:grid md:grid-cols-2 items-center rounded overflow-hidden shadow-lg">
