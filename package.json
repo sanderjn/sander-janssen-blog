@@ -30,6 +30,7 @@
     "vue-in-viewport-directive": "^2.0.2"
   },
   "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^4.1.2",
     "core-js": "^3.12.1"
   }
