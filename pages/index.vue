@@ -40,7 +40,6 @@ import SanderTransparant from '~/assets/images/sander-transparant.svg';
 export default {
   data() {
     return {
-      title: 'Webdesign & webdevelopment - Sander Janssen',
       skills: [
         'Front-end web development', 'WordPress development', 'Conversion Rate Optimization'
       ]
@@ -49,9 +48,6 @@ export default {
   head () {
     return {
       title: this.title,
-      meta: [ // Each object in this array is its own meta tag
-        { hid: 'description', name: 'description', content: 'Hi, ik ben Sander Janssen. Ik kan je helpen met oa webdesign, webdevelopment, WordPress websites, conversie optimalisatie, SEO, SEA, webhosting.' }
-      ],
       bodyAttrs: {
         class: 'home',
       }

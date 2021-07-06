@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "Hi, ik ben Sander Janssen. Ik kan je helpen met oa webdesign, webdevelopment, WordPress websites, conversie optimalisatie, SEO, SEA, webhosting.",
+  "description": "I'm Sander Janssen, a Front-end web developer with a marketing background. I'm currently available for freelance work.",
   "author": "Sander Janssen",
   "scripts": {
     "dev": "nuxt",

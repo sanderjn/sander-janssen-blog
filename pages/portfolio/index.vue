@@ -93,7 +93,7 @@ export default {
     return {
       title: this.title,
       meta: [ // Each object in this array is its own meta tag
-        { hid: 'description', name: 'description', content: "Portfolio of the work I've done for my clients." }
+        { hid: 'description', name: 'description', content: "Portfolio with the work I've done for my clients." }
       ],
       bodyAttrs: {
         class: 'portfolio',
