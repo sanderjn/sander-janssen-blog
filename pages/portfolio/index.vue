@@ -8,7 +8,7 @@
         <p>Some recent work</p>
       </div>
       <div class="mt-10 space-y-16 ">
-        <div v-for="portfolioItem in portfolioItems" class="bg-white md:grid md:grid-cols-2 items-center rounded overflow-hidden shadow-lg">
+        <div v-for="portfolioItem in portfolioItems" class="bg-white grid md:grid-cols-2 items-center rounded overflow-hidden shadow-lg">
           <div class="prose p-8">
             <h2 class="mb-0">{{ portfolioItem.title }}</h2>
             <p class="my-0 text-xs font-medium text-primary-500 uppercase tracking-wide">{{ portfolioItem.categories }}</p>
@@ -20,10 +20,10 @@
               <a :href="'https://'+portfolioItem.url" target="_blank" class="text-sm">{{portfolioItem.url}}</a>
             </p>
           </div>
-          <a :href="'https://'+portfolioItem.url" target="_blank" class="w-full group aspect-w-1 aspect-h-1 relative overflow-hidden">
+          <a :href="'https://'+portfolioItem.url" target="_blank" class="block w-full group md:aspect-w-1 md:aspect-h-1 relative overflow-hidden">
             <img class="w-full h-full object-cover transform transition-transform group-hover:scale-110 group-hover:-rotate-3" :src="getPortfolioImgUrl(portfolioItem.image)" alt="">
-            <div class="absolute w-full h-full bg-gradient-to-b from-black to-transparent pointer-events-none opacity-40 transition-opacity hover:opacity-0"></div>
-            <div class="absolute w-full h-full bg-black pointer-events-none transition-opacity opacity-5 hover:opacity-0"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent pointer-events-none opacity-20 transition-opacity hover:opacity-0"></div>
+            <div class="absolute inset-0 bg-black pointer-events-none transition-opacity opacity-5 hover:opacity-0"></div>
           </a>
         </div>
         <WorkBanner />

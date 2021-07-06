@@ -1,5 +1,5 @@
 <template>
-    <nav class="space-x-4 px-8 py-3 rounded bg-gray-50 leading-none">
+    <nav class="space-x-4 px-4 py-3 rounded bg-gray-50 leading-none md:px-8">
       <nuxtLink to="/blog" class="text-gray-800 hover:text-primary-500 focus:text-primary-600 transition-colors" active-class="text-primary-500">Blog</nuxtLink>
       <nuxtLink to="/portfolio" class="text-gray-800 hover:text-primary-500 focus:text-primary-600 transition-colors" active-class="text-primary-500">Portfolio</nuxtLink>
       <a href="https://twitter.com/leukissanders" class="hidden text-gray-800 hover:text-primary-500 focus:text-primary-600 transition-colors md:inline-block">@leukissanders</a>
