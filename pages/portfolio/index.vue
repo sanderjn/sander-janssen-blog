@@ -26,6 +26,8 @@
             <div class="absolute inset-0 bg-black pointer-events-none transition-opacity opacity-5 hover:opacity-0"></div>
           </a>
         </div>
+      </div>
+      <div class="sm:mt-40 md:mt-56">
         <WorkBanner />
       </div>
     </div>
