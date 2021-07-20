@@ -26,12 +26,12 @@
     "postcss-cli": "^8.3.1",
     "postcss-nested": "^5.0.5",
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^2.1.2",
     "vue-in-viewport-directive": "^2.0.2"
   },
   "devDependencies": {
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^4.1.2",
-    "core-js": "^3.12.1"
+    "core-js": "^3.12.1",
+    "tailwindcss": "^2.2.4"
   }
 }

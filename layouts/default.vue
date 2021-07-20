@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-fixed bg-gradient-to-r from-primary-500 via-secondary-500 to-tertiary-500 animation-gradient">
+  <div class="flex flex-col min-h-screen px-2 bg-fixed bg-gradient-to-r from-primary-500 via-secondary-500 to-tertiary-500 animation-gradient lg:px-4">
   	<Header />
-    	<main class="relative flex-1 py-10 bg-gradient-to-b from-gray-50 via-gray-100 to-gray-100 rounded shadow-lg lg:mx-4 xl:mx-8 md:py-16">
+    	<div class="container relative flex-1 py-12 bg-gradient-to-b from-gray-50 via-gray-100 to-gray-100 rounded shadow-lg md:py-12">
     		<nuxt />
-    	</main>
+    	</div>
     <Footer />
   </div>
 </template>

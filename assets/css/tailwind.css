@@ -31,20 +31,6 @@ html {
   @apply mb-2;
 }
 
-.container {
-  @apply px-4 mx-auto;
-}
-@screen md {
-  .container {
-    @apply px-6;
-  }
-}
-@screen lg {
-  .container {
-    @apply px-8;
-  }
-}
-
 /* TODO: Replace with Tailwind aspect ratio plugin */
 .aspect169 {
   & iframe,

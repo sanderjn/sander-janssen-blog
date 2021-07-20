@@ -19,6 +19,20 @@ module.exports = {
   darkMode: false,
   theme: {
   	extend: {
+      container: (theme) => ({
+        center: true,
+        screens: { // Max container width, delete to use full width
+          sm: "100%",
+          md: "100%",
+          lg: "1024px"
+        },
+        padding: {
+          DEFAULT: theme('spacing.4'),
+          sm: theme('spacing.4'),
+          md: theme('spacing.4'),
+          lg: theme('spacing.8')
+        }
+      }),
   		colors: {
   			'primary': colors.teal,
         'secondary': colors.cyan,

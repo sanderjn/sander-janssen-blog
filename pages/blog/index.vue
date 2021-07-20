@@ -1,26 +1,21 @@
 <template>
-  <div>
-    <!-- <Skew /> -->
-    <!-- <div class="fixed bottom-0 z-0 w-full pb-2 text-sm text-center text-white opacity-75">↓ Scroll voor meer</div> -->
-    <div class="container max-w-3xl">
-      <div class="prose">
-        <h1>Blog</h1>
-        <p>Sorry, 🇳🇱 Dutch only</p>
-      </div>
-      <div class="mt-10 space-y-8 ">
-          <article v-for="post in posts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="relative w-full h-64 bg-gray-900 shadow-lg rounded overflow-hidden group" v-in-viewport.once>
-              <nuxt-link :to="post.path" class="relative z-0 w-full h-full bg-gray-800"><img class="object-cover w-full h-full transform transition-transform group-hover:scale-110" :src="imgSrc(post)" :alt="title"/></nuxt-link>
-              <nuxt-link :to="post.path" class="absolute top-0 left-0 z-0 w-full h-full">
-                <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-black" style=""></div>
-              </nuxt-link>
-              <nuxt-link :to="post.path" class="absolute bottom-0 left-0 z-10 p-4 py-4 lg:px-6">
-                <span class="text-xs text-white opacity-75">{{prettyDate(post)}} in {{post.attributes.category}}</span>
-                <h3 class="my-0 text-2xl font-black text-white font-display">{{post.attributes.title}}</h3>
-              </nuxt-link>
-          </article>
-      </div>
+  <main>
+    <div class="prose">
+      <h1>Blog</h1>
+      <p>Sorry, 🇳🇱 Dutch only</p>
     </div>
-  </div>
+    <div class="mt-10 space-y-8">
+        <article v-for="post in posts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" class="relative flex flex-col justify-end w-full h-52 p-4 bg-gray-900 shadow-xl overflow-hidden group md:h-64 md:items-center lg:h-80" v-in-viewport.once>
+          <img class="absolute inset-0 w-full h-full object-cover transition-transform z-0 group-hover:scale-110" :src="imgSrc(post)" :alt="title"/>
+          <div class="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-b from-transparent to-black"></div>
+          <span class="text-xs text-white opacity-75">{{prettyDate(post)}} in {{post.attributes.category}}</span>
+          <nuxt-link class="my-0 text-lg text-white font-display z-10 md:text-2xl" :to="post.path">
+            <span class="absolute inset-0" aria-hidden="true"></span>
+            {{post.attributes.title}}
+          </nuxt-link>
+        </article>
+    </div>
+  </main>
 </template>
 <script>
 import { format, compareAsc } from 'date-fns'
