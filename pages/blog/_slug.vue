@@ -7,7 +7,7 @@
         <img class="object-cover w-full h-full transform transition-transform group-hover:scale-110" :src="image" :alt="title"/>
         <component class="prose max-w-none" :is="singlePostComponent" />
       </article>
-      <Button class="mt-10" :link="{ text: 'Terug naar overzicht', to:'/blog'}"/>
+      <Button class="mt-10" :link="{ text: 'Terug naar overzicht', to:'/blog#'+slug}"/>
     </div>
   </main>
 </template>
@@ -30,6 +30,7 @@ export default {
   created() {
     const post = require(`~/assets/content/writing/${this.$route.params.slug}.md`);
     this.title = post.attributes.title;
+    this.slug = this.$route.params.slug;
     this.singlePostComponent = post.vue.component;
     this.date = post.attributes.date;
     this.excerpt = post.attributes.excerpt;
