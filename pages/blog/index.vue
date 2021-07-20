@@ -4,7 +4,7 @@
       <h1>Blog</h1>
       <p>Sorry, 🇳🇱 Dutch only</p>
     </div>
-    <div class="mt-10 space-y-8">
+    <div class="mt-10 space-y-16">
         <article v-for="post in posts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" :id="post.path.replace('/blog/', '')" class="relative flex flex-col justify-end w-full h-52 p-4 bg-gray-900 shadow-xl overflow-hidden group md:h-64 md:items-center lg:h-80" v-in-viewport.once>
           <img class="absolute inset-0 w-full h-full object-cover transition-transform z-0 group-hover:scale-110" :src="imgSrc(post)" :alt="title"/>
           <div class="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-b from-transparent to-black"></div>
