@@ -9,8 +9,8 @@
         <div class="mt-10 space-y-16">
           <div v-for="portfolioItem in portfolioItems" class="bg-white grid md:grid-cols-2 items-center rounded overflow-hidden shadow-xl">
             <div class="p-8">
-              <h2 class="mb-0">{{ portfolioItem.title }}</h2>
-              <p class="my-0 text-xs font-medium text-primary-500 uppercase tracking-wide">{{ portfolioItem.categories }}</p>
+              <h2 class="!mb-0">{{ portfolioItem.title }}</h2>
+              <p class="my-0 text-sm font-mono font-medium text-primary-500">{{ portfolioItem.categories }}</p>
               <p>{{ portfolioItem.description }}</p>
               <p>
                 <svg class="inline w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

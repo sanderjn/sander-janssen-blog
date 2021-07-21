@@ -8,7 +8,7 @@
         <article v-for="post in posts" v-if="post.attributes.status === 'published'" :key="post.attributes.title" :id="post.path.replace('/blog/', '')" class="relative flex flex-col justify-end w-full h-52 p-4 bg-gray-900 shadow-xl overflow-hidden group md:h-64 md:items-center lg:h-80" v-in-viewport.once>
           <img class="absolute inset-0 w-full h-full object-cover transition-transform z-0 group-hover:scale-110" :src="imgSrc(post)" :alt="title"/>
           <div class="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-b from-transparent to-black"></div>
-          <span class="text-xs text-white opacity-75">{{prettyDate(post)}} in {{post.attributes.category}}</span>
+          <span class="text-xs font-mono text-white opacity-75">{{prettyDate(post)}} in {{post.attributes.category}}</span>
           <nuxt-link class="my-0 text-lg text-white font-display z-10 md:text-2xl" :to="post.path">
             <span class="absolute inset-0" aria-hidden="true"></span>
             {{post.attributes.title}}
