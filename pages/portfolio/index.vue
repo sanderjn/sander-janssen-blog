@@ -3,8 +3,8 @@
     <!-- <Skew /> -->
     <!-- <div class="fixed bottom-0 z-0 w-full pb-2 text-sm text-center text-white opacity-75">↓ Scroll voor meer</div> -->
     <main>
-      <div class="prose max-w-none">
-        <h1>Portfolio</h1>
+      <div class="prose prose-sm md:prose max-w-none">
+        <h1 class="!my-0">Portfolio</h1>
         <p>Some recent work</p>
         <div class="mt-10 space-y-16">
           <div v-for="portfolioItem in portfolioItems" class="bg-white grid md:grid-cols-2 items-center rounded overflow-hidden shadow-xl">
@@ -19,10 +19,9 @@
                 <a :href="'https://'+portfolioItem.url" target="_blank" class="text-sm">{{portfolioItem.url}}</a>
               </p>
             </div>
-            <a :href="'https://'+portfolioItem.url" target="_blank" class="block w-full group md:aspect-w-1 md:aspect-h-1 relative overflow-hidden">
-              <img class="w-full h-full object-cover transform transition-transform group-hover:scale-110" :src="getPortfolioImgUrl(portfolioItem.image)" alt="">
-              <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent pointer-events-none opacity-20 transition-opacity hover:opacity-0"></div>
-              <div class="absolute inset-0 bg-black pointer-events-none transition-opacity opacity-5 hover:opacity-0"></div>
+            <a :href="'https://'+portfolioItem.url" target="_blank" class="block w-full group aspect-w-1 aspect-h-1 relative overflow-hidden">
+              <img class="!my-0 w-full h-full object-cover transform transition-transform group-hover:scale-110" :src="getPortfolioImgUrl(portfolioItem.image)" alt="">
+              <div class="absolute inset-0 bg-black pointer-events-none opacity-20 transition-opacity group-hover:opacity-0"></div>
             </a>
           </div>
         </div>

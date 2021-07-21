@@ -76,7 +76,11 @@ module.exports = {
       })
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      animation: ['group-hover'],
+    }
+  },
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),

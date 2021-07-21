@@ -1,11 +1,11 @@
 <template>
   <main class="flex flex-col">
     <div class="flex-1">
-      <article class="prose max-w-none">
-        <h1 class="relative z-10 my-0">{{title}}</h1>
+      <article class="prose prose-sm md:prose max-w-none">
+        <h1 class="relative z-10 !my-0">{{title}}</h1>
         <span class="text-xs text-gray-500">{{prettyDate(date)}} in {{category}}</span>
         <img class="object-cover w-full h-full transform transition-transform group-hover:scale-110" :src="image" :alt="title"/>
-        <component class="prose max-w-none" :is="singlePostComponent" />
+        <component class="prose prose-sm md:prose max-w-none" :is="singlePostComponent" />
       </article>
       <Button class="mt-10" :link="{ text: 'Terug naar overzicht', to:'/blog#'+slug}"/>
     </div>

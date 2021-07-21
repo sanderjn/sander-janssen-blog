@@ -1,7 +1,7 @@
 <template>
   <main>
-    <div class="prose">
-      <h1>Blog</h1>
+    <div class="prose prose-sm md:prose">
+      <h1 class="!my-0">Blog</h1>
       <p>Sorry, 🇳🇱 Dutch only</p>
     </div>
     <div class="mt-10 space-y-16">
