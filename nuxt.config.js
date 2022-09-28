@@ -1,64 +1,68 @@
 const path = require("path");
-import FMMode from 'frontmatter-markdown-loader/mode';
+import FMMode from "frontmatter-markdown-loader/mode";
 
 export default {
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
-    title: 'Front-end web developer - Sander Janssen',
+    title: "Front-end web developer - Sander Janssen",
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content: process.env.npm_package_description || ""
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋🏻</text></svg>' }
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href:
+          "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋🏻</text></svg>"
+      }
     ]
   },
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: {
-    color: 'blue',
-    height: '10px',
+    color: "blue",
+    height: "10px"
     // throttle: '0',
   },
   /*
-  ** Global CSS
-  */
-  css: [
-  ],
+   ** Global CSS
+   */
+  css: [],
   /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-  ],
+   ** Plugins to load before mounting the App
+   */
+  plugins: [{ src: "~/plugins/simple-analytics.js", ssr: false }],
   /*
-  ** Nuxt.js dev-modules
-  */
+   ** Nuxt.js dev-modules
+   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics',
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-analytics"
   ],
   /*
-  ** Nuxt.js modules
-  */
-  modules: [
-    'nuxt-svg-loader',
-    '@nuxtjs/sitemap',
-  ],
+   ** Nuxt.js modules
+   */
+  modules: ["nuxt-svg-loader", "@nuxtjs/sitemap"],
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     /*
-    ** You can extend webpack config here
-    */
+     ** You can extend webpack config here
+     */
     postcss: {
       plugins: {
-        'autoprefixer': true,
+        autoprefixer: true
       }
     },
     extend(config, ctx) {
@@ -66,24 +70,24 @@ export default {
       config.module.rules.push({
         test: /\.md$/,
         include: path.resolve(__dirname, "assets/content/writing"),
-        loader: 'frontmatter-markdown-loader',
+        loader: "frontmatter-markdown-loader",
         options: {
           mode: [FMMode.VUE_COMPONENT],
           vue: {
-            root: 'markdown-body'
+            root: "markdown-body"
           }
         }
       });
     }
   },
   sitemap: {
-    hostname: 'https://www.sanderjanssen.nl',
+    hostname: "https://www.sanderjanssen.nl"
   },
   generate: {
     routes() {
-      '/blog';
-      const fs = require('fs');
-      return fs.readdirSync('./assets/content/writing').map((file) => {
+      "/blog";
+      const fs = require("fs");
+      return fs.readdirSync("./assets/content/writing").map(file => {
         return {
           route: `/blog/${path.parse(file).name}`
         };
@@ -91,6 +95,6 @@ export default {
     }
   },
   googleAnalytics: {
-    id: 'UA-38770341-1'
+    id: "UA-38770341-1"
   }
-}
+};
