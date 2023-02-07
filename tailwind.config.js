@@ -24,7 +24,7 @@ module.exports = {
         screens: { // Max container width, delete to use full width
           sm: "100%",
           md: "100%",
-          lg: "1024px"
+          lg: "768px"
         },
         padding: {
           DEFAULT: theme('spacing.4'),
@@ -34,7 +34,7 @@ module.exports = {
         }
       }),
   		colors: {
-  			'primary': colors.teal,
+  			'primary': colors.indigo,
         'secondary': colors.cyan,
         'tertiary': colors.purple,
   		},
@@ -51,7 +51,6 @@ module.exports = {
         DEFAULT: {
           css: {
             color: theme('colors.gray.700'),
-            // color: theme('colors.primary.800'),
             h1: {
               fontWeight: '600',
             },
@@ -65,11 +64,11 @@ module.exports = {
               color: theme('colors.gray.800'),
               fontWeight: '700',
               '&:hover': {
-                color: theme('colors.primary.500'),
+                color: theme('colors.primary.600'),
               },
             },
             'ul > li::before': {
-              backgroundColor: theme('colors.primary.300'),
+              backgroundColor: theme('colors.primary.600'),
             },
           },
         },

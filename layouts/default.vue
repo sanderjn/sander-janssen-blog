@@ -1,33 +1,16 @@
 <template>
   <div
     class="
-      flex flex-col
+      w-full
       min-h-screen
-      px-2
-      bg-fixed bg-gradient-to-r
-      from-primary-500
-      via-secondary-500
-      to-tertiary-500
-      animation-gradient
-      lg:px-4
+      bg-gradient-to-b
+      from-gray-50
+      via-gray-100
+      to-gray-100
     "
   >
     <Header />
-    <div
-      class="
-        container
-        relative
-        flex-1
-        py-12
-        bg-gradient-to-b
-        from-gray-50
-        via-gray-100
-        to-gray-100
-        rounded
-        shadow-lg
-        md:py-12
-      "
-    >
+    <div class="container relative flex-1 py-12 rounded md:py-12">
       <nuxt />
     </div>
     <Footer />
