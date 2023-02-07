@@ -3,7 +3,7 @@
     <!-- <Skew /> -->
     <!-- <div class="fixed bottom-0 z-0 w-full pb-2 text-sm text-center text-white opacity-75">↓ Scroll voor meer</div> -->
     <main>
-      <div class="prose prose-sm md:prose max-w-none">
+      <div class="prose-sm md:prose !max-w-none">
         <h1 class="!my-0">Portfolio</h1>
         <p>Some recent work</p>
         <div class="mt-10 space-y-16">
@@ -18,13 +18,13 @@
               overflow-hidden
             "
           >
-            <div class="p-8">
-              <h2 class="!mb-0">{{ portfolioItem.title }}</h2>
+            <div class="p-8 prose">
+              <h2 class="!my-0">{{ portfolioItem.title }}</h2>
               <p class="my-0 text-sm font-mono font-medium text-primary-600">
                 {{ portfolioItem.categories }}
               </p>
               <p>{{ portfolioItem.description }}</p>
-              <p>
+              <p class="mb-0">
                 <svg
                   class="inline w-4 h-4"
                   xmlns="http://www.w3.org/2000/svg"

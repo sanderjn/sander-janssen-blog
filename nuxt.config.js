@@ -36,7 +36,9 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    "~/assets/css/tailwind.css",
+  ],
   /*
    ** Plugins to load before mounting the App
    */
@@ -46,7 +48,7 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    "@nuxtjs/tailwindcss",
+    "@nuxt/postcss8",
     "@nuxtjs/google-analytics"
   ],
   /*
@@ -57,14 +59,15 @@ export default {
    ** Build configuration
    */
   build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
     /*
      ** You can extend webpack config here
      */
-    postcss: {
-      plugins: {
-        autoprefixer: true
-      }
-    },
     extend(config, ctx) {
       // add frontmatter-markdown-loader
       config.module.rules.push({

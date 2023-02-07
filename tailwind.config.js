@@ -7,9 +7,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  important: 'html',
-  mode: 'jit',
-  purge: [
+  content: [
     './components/**/*.{vue,js}',
     './layouts/**/*.vue',
     './pages/**/*.vue',
@@ -24,7 +22,7 @@ module.exports = {
         screens: { // Max container width, delete to use full width
           sm: "100%",
           md: "100%",
-          lg: "768px"
+          lg: "920px"
         },
         padding: {
           DEFAULT: theme('spacing.4'),
@@ -50,25 +48,11 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.gray.700'),
-            h1: {
-              fontWeight: '600',
-            },
-            h2: {
-              fontWeight: '600',
-            },
-            h3: {
-              fontWeight: '600',
-            },
+            '--tw-prose-bullets': theme('colors.primary[500]'),
             a: {
-              color: theme('colors.gray.800'),
-              fontWeight: '700',
               '&:hover': {
                 color: theme('colors.primary.600'),
               },
-            },
-            'ul > li::before': {
-              backgroundColor: theme('colors.primary.600'),
             },
           },
         },
