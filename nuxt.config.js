@@ -40,10 +40,6 @@ export default {
     "~/assets/css/tailwind.css",
   ],
   /*
-   ** Plugins to load before mounting the App
-   */
-  plugins: [{ src: "~/plugins/simple-analytics.js", ssr: false }],
-  /*
    ** Nuxt.js dev-modules
    */
   buildModules: [
