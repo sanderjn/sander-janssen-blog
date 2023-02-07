@@ -22,8 +22,9 @@
           object-cover
           transform
           transition-transform
-          rounded-md
-          hover:scale-105 hover:-translate-y-0.5
+          rounded-full
+          border-2 border-primary-600
+          hover:scale-105 hover:-rotate-3
         "
       />
     </nuxt-link>
