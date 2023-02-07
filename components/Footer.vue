@@ -57,13 +57,13 @@
         - </span
       >Built with
       <a
-        class="underline transition-colors hover:text-primary-500"
+        class="underline transition-colors hover:text-primary-600"
         href="https://nuxtjs.org"
         >Nuxt.js</a
       >
       and
       <a
-        class="underline transition-colors hover:text-primary-500"
+        class="underline transition-colors hover:text-primary-600"
         href="https://tailwindcss.com/"
         >TailwindCSS</a
       >
