@@ -14,7 +14,6 @@ module.exports = {
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
   ],
-  darkMode: false,
   theme: {
   	extend: {
       container: (theme) => ({
@@ -33,8 +32,6 @@ module.exports = {
       }),
   		colors: {
   			'primary': colors.indigo,
-        'secondary': colors.cyan,
-        'tertiary': colors.purple,
   		},
   		fontFamily: {
         'display': 'Inter, Helvetica, Arial Black'

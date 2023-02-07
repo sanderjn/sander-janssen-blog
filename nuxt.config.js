@@ -48,7 +48,6 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    "@nuxt/postcss8",
     "@nuxtjs/google-analytics"
   ],
   /*
