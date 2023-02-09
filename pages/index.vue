@@ -94,8 +94,7 @@
 
 <script>
 import WorkBanner from "~/components/WorkBanner.vue";
-import Sander from "~/assets/images/sander.svg";
-import SanderTransparant from "~/assets/images/sander-transparant.svg";
+
 export default {
   data() {
     return {
@@ -116,8 +115,6 @@ export default {
   },
   components: {
     WorkBanner,
-    Sander,
-    SanderTransparant,
   },
 };
 </script>
