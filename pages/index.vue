@@ -83,8 +83,7 @@
               target="_blank"
               class="hover:text-primary-500"
               >SoundCloud</a
-            >. Also I'm low-key producing electronic music, but don't dare to
-            share my creations (yet).
+            >.
           </p>
         </div>
       </div>

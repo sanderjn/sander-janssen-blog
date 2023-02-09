@@ -6,6 +6,7 @@ export default {
    ** Headers of the page
    */
   head: {
+    lang: "en",
     title: "Front-end web developer - Sander Janssen",
     meta: [
       { charset: "utf-8" },
@@ -13,7 +14,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
+        content: "I'm Sander Janssen, a Front-end web developer with a marketing background. Currently available for freelance work."
       }
     ],
     link: [
