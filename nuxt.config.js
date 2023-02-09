@@ -52,6 +52,12 @@ export default {
         autoprefixer: {},
       },
     },
+    babel: {
+      plugins: [
+        // or with JUST the line below
+        ['@babel/plugin-proposal-private-property-in-object', { loose: true }]
+      ],
+    },
     /*
      ** You can extend webpack config here
      */
