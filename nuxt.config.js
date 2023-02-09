@@ -1,5 +1,5 @@
 const path = require("path");
-import FMMode from "frontmatter-markdown-loader/mode";
+// import FMMode from "frontmatter-markdown-loader/mode";
 
 export default {
   /*
@@ -55,20 +55,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {
-      // add frontmatter-markdown-loader
-      config.module.rules.push({
-        test: /\.md$/,
-        include: path.resolve(__dirname, "assets/content/writing"),
-        loader: "frontmatter-markdown-loader",
-        options: {
-          mode: [FMMode.VUE_COMPONENT],
-          vue: {
-            root: "markdown-body"
-          }
-        }
-      });
-    }
+    extend(config, ctx) {}
   },
   sitemap: {
     hostname: "https://www.sanderjanssen.nl"
