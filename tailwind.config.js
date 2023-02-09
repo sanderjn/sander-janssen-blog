@@ -51,6 +51,9 @@ module.exports = {
                 color: theme('colors.primary.600'),
               },
             },
+            h2: {
+              fontSize: theme('fontSize.xl'),
+            }
           },
         },
       })

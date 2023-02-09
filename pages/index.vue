@@ -52,14 +52,14 @@
               >shoot me a message</a
             >.
           </p>
-          <h3>Work with me on</h3>
+          <h2>Work with me on</h2>
           <ul>
             <li v-for="skill in skills">{{ skill }}</li>
           </ul>
         </div>
         <WorkBanner />
         <div class="mt-10 prose prose-sm md:prose max-w-none">
-          <h3>More about me</h3>
+          <h2>More about me</h2>
           <p>
             I love music (disco/house/electronic) and I spend most of my free
             time looking for new music to use in my DJ sets, which you can check
