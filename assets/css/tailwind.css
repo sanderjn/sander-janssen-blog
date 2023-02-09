@@ -16,6 +16,7 @@ html {
   src: local("Inter Black"), url("~assets/fonts/Inter-Black.ttf") format("ttf"),
     url("~assets/fonts/Inter-Black.woff") format("woff"),
     url("~assets/fonts/Inter-Black.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Inter";
@@ -24,6 +25,7 @@ html {
     url("~assets/fonts/Inter-SemiBold.ttf") format("ttf"),
     url("~assets/fonts/Inter-SemiBold.woff") format("woff"),
     url("~assets/fonts/Inter-SemiBold.woff2") format("woff2");
+  font-display: swap;
 }
 
 @tailwind utilities;
