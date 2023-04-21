@@ -9,6 +9,7 @@
       to-gray-100
     "
   >
+    <Chat />
     <Header />
     <div class="container relative flex-1 py-12 rounded md:py-12">
       <nuxt />
@@ -18,11 +19,13 @@
 </template>
 
 <script>
+import Chat from "~/components/Chat.vue";
 import Header from "~/components/Header.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
+    Chat,
     Header,
     Footer,
   },
