@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "I'm Sander Janssen, a Front-end web developer with a marketing background. I'm currently available for freelance work.",
+  "description": "I'm Sander Janssen, a freelance front-end web developer with 10+ years of experience. Work with me on web development, WordPress development, or conversion rate optimization.",
   "author": "Sander Janssen",
   "scripts": {
     "dev": "nuxt",
