@@ -85,6 +85,7 @@ export default {
                 "zweedsepellets.png",
             ],
             skills: [
+                "Website consultancy",
                 "Front-end web development",
                 "WordPress development",
                 "Conversion Rate Optimization",
